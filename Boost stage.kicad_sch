@@ -1,0 +1,660 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "db83f721-66be-4313-a31e-6acac7d63216")
+	(paper "A2")
+	(lib_symbols
+		(symbol "digikey:INA2227AIYBJR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "INA2227AIYBJR"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "digikey:U_BGA_YBJ0016-C01_TEX-M"
+				(at 73.152 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/ina2227"
+				(at 78.74 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "INA2227AIYBJR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "U_BGA_YBJ0016-C01_TEX U_BGA_YBJ0016-C01_TEX-M U_BGA_YBJ0016-C01_TEX-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "INA2227AIYBJR_0_1"
+				(pin input line
+					(at -21.59 7.62 0)
+					(length 7.62)
+					(name "IN+1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -21.59 5.08 0)
+					(length 7.62)
+					(name "VBUS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -21.59 2.54 0)
+					(length 7.62)
+					(name "ALERT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -21.59 0 0)
+					(length 7.62)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -21.59 -2.54 0)
+					(length 7.62)
+					(name "IN-1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -21.59 -5.08 0)
+					(length 7.62)
+					(name "DNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -21.59 -7.62 0)
+					(length 7.62)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -21.59 -10.16 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 7.62 180)
+					(length 7.62)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 5.08 180)
+					(length 7.62)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 2.54 180)
+					(length 7.62)
+					(name "VBUS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 24.13 0 180)
+					(length 7.62)
+					(name "IN+2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 24.13 -2.54 180)
+					(length 7.62)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 -5.08 180)
+					(length 7.62)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 24.13 -7.62 180)
+					(length 7.62)
+					(name "DNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 24.13 -10.16 180)
+					(length 7.62)
+					(name "IN-2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "INA2227AIYBJR_1_1"
+				(rectangle
+					(start -13.97 12.7)
+					(end 16.51 -15.24)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "digikey:INA2227AIYBJR")
+		(at 265.43 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0eb1cb0c-643d-41f5-a530-6f3c999007f6")
+		(property "Reference" "U49"
+			(at 266.7 181.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "INA2227AIYBJR"
+			(at 266.7 184.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "digikey:U_BGA_YBJ0016-C01_TEX-M"
+			(at 338.582 194.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/ina2227"
+			(at 344.17 192.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "D1"
+			(uuid "b11f92ae-757b-459f-87d9-20ecf2c80c8a")
+		)
+		(pin "C2"
+			(uuid "a008e3c8-603a-493e-b605-44a58762b0cc")
+		)
+		(pin "C1"
+			(uuid "301e5f85-5bd9-4f3c-8148-a81259908d42")
+		)
+		(pin "C3"
+			(uuid "5b587fd8-57e9-46b4-a552-7730ae2c1173")
+		)
+		(pin "C4"
+			(uuid "3f5cc478-dd4d-45a4-83dd-f8a868f8b8cc")
+		)
+		(pin "A1"
+			(uuid "b5945118-fafb-431b-ac02-db49c82faf02")
+		)
+		(pin "D4"
+			(uuid "e5b4fed1-3631-40f9-9c8d-5a2d08f0b615")
+		)
+		(pin "A2"
+			(uuid "237f34ce-894b-44fb-b459-99826422da76")
+		)
+		(pin "B2"
+			(uuid "ee9f640a-fd07-475f-aea3-a1919a46f154")
+		)
+		(pin "A3"
+			(uuid "3d2d5ab6-7605-4a9a-bedd-ab13674376c6")
+		)
+		(pin "A4"
+			(uuid "1ad15ef6-1ace-44a2-936c-9f56bcef97dd")
+		)
+		(pin "B3"
+			(uuid "854e7c3f-93c3-49ff-ab80-d69b0598e315")
+		)
+		(pin "D3"
+			(uuid "2e5a807d-55a8-4752-b671-8381414fab39")
+		)
+		(pin "D2"
+			(uuid "54397941-f76c-4692-a65d-052401de9359")
+		)
+		(pin "B1"
+			(uuid "800272a0-bb7a-4a67-877d-c2f6b33d0ed1")
+		)
+		(pin "B4"
+			(uuid "5e32106c-3f46-4842-9d99-8f0c6f762b84")
+		)
+		(instances
+			(project "powerboard"
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/c49d698a-6df9-445a-ba60-79c8c0f7617e"
+					(reference "U49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 323.85 170.18)
+		(size 31.75 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "464c106a-ee9c-48a0-afb4-fa826c5c58e7")
+		(property "Sheetname" "Boost submodule"
+			(at 323.85 169.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Boost submodule.kicad_sch"
+			(at 323.85 193.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BOOST_OUT" output
+			(at 355.6 181.61 0)
+			(uuid "1b18d88b-3a3c-43a7-8698-24bcb0d11ddc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN" input
+			(at 323.85 175.26 180)
+			(uuid "0e713e20-7b7b-4ddb-8e06-9db9b558c34a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INA+" input
+			(at 323.85 182.88 180)
+			(uuid "abc73c38-146c-4ec9-b858-3324854a89ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INA-" input
+			(at 323.85 185.42 180)
+			(uuid "114cb977-4683-4682-8fb1-bc5a35f012d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "powerboard"
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/c49d698a-6df9-445a-ba60-79c8c0f7617e"
+					(page "43")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 323.85 205.74)
+		(size 31.75 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "54250810-9cec-42d2-93e3-2b9c1f1f727b")
+		(property "Sheetname" "Boost submodule1"
+			(at 323.85 205.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Boost submodule.kicad_sch"
+			(at 323.85 229.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BOOST_OUT" output
+			(at 355.6 217.17 0)
+			(uuid "f0a92388-bdb8-42f4-88b8-b2e21901e294")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN" input
+			(at 323.85 210.82 180)
+			(uuid "6c48a268-ea6d-449b-8d3d-bc091f71059f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INA+" input
+			(at 323.85 218.44 180)
+			(uuid "55616bcf-da45-47d6-a21e-040b000a5b86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INA-" input
+			(at 323.85 220.98 180)
+			(uuid "1c6839a8-9a8e-440e-9404-a71de7073fc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "powerboard"
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/c49d698a-6df9-445a-ba60-79c8c0f7617e"
+					(page "44")
+				)
+			)
+		)
+	)
+)

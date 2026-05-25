@@ -1,0 +1,3533 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "35e3e532-4441-421d-8089-d23f23a4400e")
+	(paper "A2")
+	(lib_symbols
+		(symbol "digikey:INA2227AIYBJR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "INA2227AIYBJR"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "digikey:U_BGA_YBJ0016-C01_TEX-M"
+				(at 73.152 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/ina2227"
+				(at 78.74 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "INA2227AIYBJR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "U_BGA_YBJ0016-C01_TEX U_BGA_YBJ0016-C01_TEX-M U_BGA_YBJ0016-C01_TEX-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "INA2227AIYBJR_0_1"
+				(pin input line
+					(at -21.59 7.62 0)
+					(length 7.62)
+					(name "IN+1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -21.59 5.08 0)
+					(length 7.62)
+					(name "VBUS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -21.59 2.54 0)
+					(length 7.62)
+					(name "ALERT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -21.59 0 0)
+					(length 7.62)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -21.59 -2.54 0)
+					(length 7.62)
+					(name "IN-1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -21.59 -5.08 0)
+					(length 7.62)
+					(name "DNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -21.59 -7.62 0)
+					(length 7.62)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -21.59 -10.16 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 7.62 180)
+					(length 7.62)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 5.08 180)
+					(length 7.62)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 2.54 180)
+					(length 7.62)
+					(name "VBUS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 24.13 0 180)
+					(length 7.62)
+					(name "IN+2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 24.13 -2.54 180)
+					(length 7.62)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 24.13 -5.08 180)
+					(length 7.62)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 24.13 -7.62 180)
+					(length 7.62)
+					(name "DNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 24.13 -10.16 180)
+					(length 7.62)
+					(name "IN-2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "INA2227AIYBJR_1_1"
+				(rectangle
+					(start -13.97 12.7)
+					(end 16.51 -15.24)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "integrated-circuit:ADM3260ARSZ-RL7"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 21.59 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "ADM3260ARSZ-RL7"
+				(at 0 19.05 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "digikey:SSOP-20_RS-20_ADI-M"
+				(at 78.232 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3260.pdf"
+				(at 112.268 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "ADM3260ARSZ-RL7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SSOP-20_RS-20_ADI SSOP-20_RS-20_ADI-M SSOP-20_RS-20_ADI-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ADM3260ARSZ-RL7_0_1"
+				(pin power_out line
+					(at -22.86 11.43 0)
+					(length 7.62)
+					(name "GNDP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 8.89 0)
+					(length 7.62)
+					(name "SCL2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 6.35 0)
+					(length 7.62)
+					(name "SDA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 3.81 0)
+					(length 7.62)
+					(name "VDDP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -22.86 1.27 0)
+					(length 7.62)
+					(name "GNDP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -22.86 -1.27 0)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -22.86 -3.81 0)
+					(length 7.62)
+					(name "GNDP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -22.86 -6.35 0)
+					(length 7.62)
+					(name "PDIS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 -8.89 0)
+					(length 7.62)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -22.86 -11.43 0)
+					(length 7.62)
+					(name "GNDP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 22.86 11.43 180)
+					(length 7.62)
+					(name "GNDISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 8.89 180)
+					(length 7.62)
+					(name "SCL1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.86 6.35 180)
+					(length 7.62)
+					(name "SDA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 22.86 3.81 180)
+					(length 7.62)
+					(name "VDDISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 22.86 1.27 180)
+					(length 7.62)
+					(name "GNDISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 22.86 -1.27 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 22.86 -3.81 180)
+					(length 7.62)
+					(name "GNDISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 22.86 -6.35 180)
+					(length 7.62)
+					(name "VSEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 22.86 -8.89 180)
+					(length 7.62)
+					(name "VISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 22.86 -11.43 180)
+					(length 7.62)
+					(name "GNDISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ADM3260ARSZ-RL7_1_1"
+				(rectangle
+					(start -15.24 16.51)
+					(end 15.24 -16.51)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "review:REC30K-4805DZ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PS"
+				(at 0 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "REC30K-4805DZ"
+				(at 0.508 9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "review:DIP-6-25.4x25.4"
+				(at 37.338 17.526 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://recom-power.com/pdf/Econoline/REC30K(-Z).pdf"
+				(at 54.356 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Isolated Module DC DC Converter 2 Output 5V -5V 2A, 2A 18V - 75V Input DIP-6"
+				(at 66.04 14.732 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description pt-br" "Módulo Conversor DC-DC Isolado com 2 Saídas 5V e -5V, 2A, Entrada de 18V a 75V DIP-6"
+				(at 71.12 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Recom Power"
+				(at 32.512 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "REC30K-4805DZ"
+				(at 34.036 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SAP Code" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PLM Code" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "RoHS Compliance" "Yes"
+				(at 27.686 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "NCM" "8504.40"
+				(at 29.972 -7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Lead Time (W)" "LT"
+				(at 26.924 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Maturity Level" "P/V/F"
+				(at 28.956 0.762 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Criticality" "C/S/G"
+				(at 29.21 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Created by" "Mateus Lourenço 18/05/2026"
+				(at 40.64 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Reviewed by" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "REC30K-4805DZ_1_1"
+				(rectangle
+					(start -6.35 7.62)
+					(end 6.35 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -11.43 5.08 0)
+					(length 5.08)
+					(name "+Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 0 0)
+					(length 5.08)
+					(name "CTRL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 -5.08 0)
+					(length 5.08)
+					(name "-Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 5.08 180)
+					(length 5.08)
+					(name "+Vou"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 0 180)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 -5.08 180)
+					(length 5.08)
+					(name "-Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "review:REC30K-4812DZ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PS"
+				(at 0 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "REC30K-4812DZ"
+				(at 0.508 9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "review:DIP-6-25.4x25.4"
+				(at 37.592 17.526 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://recom-power.com/pdf/Econoline/REC30K(-Z).pdf"
+				(at 54.356 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Isolated Module DC DC Converter 2 Output 12V -12V 1.25A, 1.25A 18V - 75V Input 6-DIP"
+				(at 70.866 15.494 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description pt-br" "Módulo Conversor DC-DC Isolado com 2 Saídas 12V e -12V, 1.25A, Entrada de 18V a 75V 6-DIP"
+				(at 74.168 12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Recom Power"
+				(at 32.512 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "REC30K-4812DZ"
+				(at 34.036 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SAP Code" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PLM Code" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "RoHS Compliance" "Yes"
+				(at 27.686 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "NCM" "8504.40"
+				(at 29.972 -7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Lead Time (W)" "LT"
+				(at 26.924 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Maturity Level" "P/V/F"
+				(at 28.956 0.762 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Criticality" "C/S/G"
+				(at 29.21 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Created by" "Mateus Lourenço 18/05/2026"
+				(at 40.64 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Reviewed by" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "REC30K-4812DZ_1_1"
+				(rectangle
+					(start -6.35 7.62)
+					(end 6.35 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -11.43 5.08 0)
+					(length 5.08)
+					(name "+Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 0 0)
+					(length 5.08)
+					(name "CTRL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 -5.08 0)
+					(length 5.08)
+					(name "-Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 5.08 180)
+					(length 5.08)
+					(name "+Vou"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 0 180)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 -5.08 180)
+					(length 5.08)
+					(name "-Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "review:REC30K-4815DZ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PS"
+				(at 0 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "REC30K-4815DZ"
+				(at 0.508 9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "review:DIP-6-25.4x25.4"
+				(at 37.592 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://recom-power.com/pdf/Econoline/REC30K(-Z).pdf"
+				(at 54.356 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Isolated Module DC DC Converter 2 Output 15V -15V 1A, 1A 18V - 75V Input 6-DIP"
+				(at 67.564 14.732 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description pt-br" "Módulo Conversor DC-DC Isolado com 2 Saídas 15V e -15V, 1A, Entrada de 18V a 75V 6-DIP"
+				(at 72.39 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Recom Power"
+				(at 32.512 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "REC30K-4812DZ"
+				(at 34.036 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SAP Code" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PLM Code" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "RoHS Compliance" "Yes"
+				(at 27.686 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "NCM" "8504.40"
+				(at 29.972 -7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Lead Time (W)" "LT"
+				(at 26.924 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Maturity Level" "P/V/F"
+				(at 28.956 0.762 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Criticality" "C/S/G"
+				(at 29.21 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Created by" "Mateus Lourenço 18/05/2026"
+				(at 40.64 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Reviewed by" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "REC30K-4815DZ_1_1"
+				(rectangle
+					(start -6.35 7.62)
+					(end 6.35 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -11.43 5.08 0)
+					(length 5.08)
+					(name "+Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 0 0)
+					(length 5.08)
+					(name "CTRL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 -5.08 0)
+					(length 5.08)
+					(name "-Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 5.08 180)
+					(length 5.08)
+					(name "+Vou"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 0 180)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 -5.08 180)
+					(length 5.08)
+					(name "-Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 64.77 224.79) (xy 74.93 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e26b41-0820-42be-9162-0d9dee24dd2e")
+	)
+	(wire
+		(pts
+			(xy 64.77 219.71) (xy 74.93 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde3057d-1763-42ba-9040-056ede0bd1ac")
+	)
+	(hierarchical_label "-15V_ISO_OUT"
+		(shape output)
+		(at 284.48 317.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15a0b812-7365-4f4a-a1ed-09ecdba760f9")
+	)
+	(hierarchical_label "5V_EN"
+		(shape input)
+		(at 250.19 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "546558bb-3b1a-4b5c-8311-143dd0c034f7")
+	)
+	(hierarchical_label "+12V_ISO_OUT"
+		(shape output)
+		(at 283.21 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6508ca8e-0f8f-4617-abc3-af3f79a3dbea")
+	)
+	(hierarchical_label "15V_EN"
+		(shape input)
+		(at 246.38 313.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "693b6b85-4abe-4627-91c7-f391eb314c4f")
+	)
+	(hierarchical_label "+15V_ISO_OUT"
+		(shape output)
+		(at 284.48 309.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "711cfa0e-fbcd-4b60-9ac7-a2a2f5e28f36")
+	)
+	(hierarchical_label "-12V_ISO_OUT"
+		(shape output)
+		(at 283.21 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "72c0bd3c-3c0a-4fd1-a050-8e3bec2926e5")
+	)
+	(hierarchical_label "GND(15V)_ISO_OUT"
+		(shape output)
+		(at 284.48 313.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f4316f6-f831-446e-9c06-a3f42c367269")
+	)
+	(hierarchical_label "GND(12V)_ISO_OUT"
+		(shape output)
+		(at 283.21 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95860709-aac1-45f7-bc32-2286e098006c")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 74.93 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "972e39fc-b731-4e4a-98bb-586a3b4935bc")
+	)
+	(hierarchical_label "12V_EN"
+		(shape input)
+		(at 247.65 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97741bbb-f53a-4ce5-bfa5-d669e8f9715f")
+	)
+	(hierarchical_label "24V"
+		(shape input)
+		(at 74.93 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b37a6bb-7d4c-4e11-8b27-1e74ce2d5699")
+	)
+	(hierarchical_label "-5V_ISO_OUT"
+		(shape output)
+		(at 288.29 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1df5627-c307-4c4c-a24a-e49a5b22e8c7")
+	)
+	(hierarchical_label "GND(5V)_ISO_OUT"
+		(shape output)
+		(at 288.29 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7e52c4e-0eee-44fd-ba2f-02cbf5685b9a")
+	)
+	(hierarchical_label "+5V_ISO_OUT"
+		(shape output)
+		(at 288.29 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e27474cf-751b-4361-a588-ba1a0c50d7e2")
+	)
+	(symbol
+		(lib_id "review:REC30K-4805DZ")
+		(at 269.24 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09866677-230e-42ad-ac8f-e41c004fa1f6")
+		(property "Reference" "PS1"
+			(at 269.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "REC30K-4805DZ"
+			(at 269.24 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "review:DIP-6-25.4x25.4"
+			(at 306.578 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://recom-power.com/pdf/Econoline/REC30K(-Z).pdf"
+			(at 323.596 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Isolated Module DC DC Converter 2 Output 5V -5V 2A, 2A 18V - 75V Input DIP-6"
+			(at 335.28 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description pt-br" "Módulo Conversor DC-DC Isolado com 2 Saídas 5V e -5V, 2A, Entrada de 18V a 75V DIP-6"
+			(at 340.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Recom Power"
+			(at 301.752 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "REC30K-4805DZ"
+			(at 303.276 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SAP Code" ""
+			(at 269.24 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLM Code" ""
+			(at 269.24 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliance" "Yes"
+			(at 296.926 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NCM" "8504.40"
+			(at 299.212 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead Time (W)" "LT"
+			(at 296.164 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maturity Level" "P/V/F"
+			(at 298.196 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Criticality" "C/S/G"
+			(at 298.45 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "Mateus Lourenço 18/05/2026"
+			(at 309.88 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reviewed by" ""
+			(at 269.24 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc51b430-934b-44ff-8d1e-0f45c603e98c")
+		)
+		(pin "3"
+			(uuid "3a703124-28f7-40f6-b319-33136a9ea820")
+		)
+		(pin "5"
+			(uuid "613dbe5c-a761-4a6e-a959-3f08c6d45f95")
+		)
+		(pin "6"
+			(uuid "3fd0dcf1-7f45-402e-a4bf-434a083698f7")
+		)
+		(pin "4"
+			(uuid "669f18e5-6bb2-46ca-8eaf-99cbf5625f72")
+		)
+		(pin "1"
+			(uuid "23b0f73d-8d2f-40f3-9cb6-30e3a5ea4d48")
+		)
+		(instances
+			(project ""
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386"
+					(reference "PS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "digikey:INA2227AIYBJR")
+		(at 331.47 312.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24a27ab6-35e8-425e-9b60-c90ef1399136")
+		(property "Reference" "U20"
+			(at 332.74 294.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "INA2227AIYBJR"
+			(at 332.74 297.18 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "digikey:U_BGA_YBJ0016-C01_TEX-M"
+			(at 404.622 307.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/ina2227"
+			(at 410.21 305.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 331.47 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "D1"
+			(uuid "c9b81cb5-a124-495a-952b-30308a640fa6")
+		)
+		(pin "C2"
+			(uuid "b9f69ad7-d70b-4b82-a5ba-0e3c27362d02")
+		)
+		(pin "C1"
+			(uuid "a0ddd7df-9dbd-43ed-a7e0-14a2a5377cf7")
+		)
+		(pin "C3"
+			(uuid "6b268c0c-814a-44a4-bc43-7e23379da17a")
+		)
+		(pin "C4"
+			(uuid "320b9a55-852c-484d-b93e-bb206e473adb")
+		)
+		(pin "A1"
+			(uuid "e9ca94ad-20c1-4c25-b093-3fdb0aa6c669")
+		)
+		(pin "D4"
+			(uuid "511461ba-af42-4cac-91b5-d1be357f2b39")
+		)
+		(pin "A2"
+			(uuid "e15e6807-a103-45bb-9c6b-08b36bd31f6a")
+		)
+		(pin "B2"
+			(uuid "b983b94f-ffbe-47db-af2e-434a97714119")
+		)
+		(pin "A3"
+			(uuid "b4625c63-8fa8-4256-94d6-a28dbf62eb56")
+		)
+		(pin "A4"
+			(uuid "0fdd945d-8754-4c4f-a36f-7732635f061b")
+		)
+		(pin "B3"
+			(uuid "9b06f9d8-73ef-4ab9-8ce8-bb3dedbe7e7e")
+		)
+		(pin "D3"
+			(uuid "cf3e0c28-c702-44b2-839f-98b30668986c")
+		)
+		(pin "D2"
+			(uuid "4bfe9f47-9df3-4a4e-8cdc-612a79180920")
+		)
+		(pin "B1"
+			(uuid "e31db48a-ec11-442c-b0f8-5635e37d4e60")
+		)
+		(pin "B4"
+			(uuid "c407e426-5889-4875-89ba-334626f7d46a")
+		)
+		(instances
+			(project "powerboard"
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386"
+					(reference "U20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "digikey:INA2227AIYBJR")
+		(at 331.47 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30e360fc-3a13-4dc7-9a3e-3950562eded2")
+		(property "Reference" "U19"
+			(at 332.74 161.29 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "INA2227AIYBJR"
+			(at 332.74 163.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "digikey:U_BGA_YBJ0016-C01_TEX-M"
+			(at 404.622 174.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/ina2227"
+			(at 410.21 171.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 331.47 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "D1"
+			(uuid "e4a5bad9-a6d2-47f1-90b5-804ec08ee278")
+		)
+		(pin "C2"
+			(uuid "6a024c02-5e90-4e91-8e5f-75ff5771143a")
+		)
+		(pin "C1"
+			(uuid "18ac112e-948b-4679-b6ad-b373fd9eda06")
+		)
+		(pin "C3"
+			(uuid "0755e8da-b2d9-4330-8457-9967a37278eb")
+		)
+		(pin "C4"
+			(uuid "920cc061-0d97-4930-8f65-ea5cef0921bc")
+		)
+		(pin "A1"
+			(uuid "7a17135c-d947-4071-bdab-082fcddbfe2b")
+		)
+		(pin "D4"
+			(uuid "af5f3928-9b9e-4bcd-a5c5-d0afabeb2c14")
+		)
+		(pin "A2"
+			(uuid "3651577b-830f-49c4-aa63-4598c6393263")
+		)
+		(pin "B2"
+			(uuid "7ccad31e-c603-4dcf-8c1d-ff1e7561c95a")
+		)
+		(pin "A3"
+			(uuid "3a03799b-b912-471d-a554-8fd8e201d46b")
+		)
+		(pin "A4"
+			(uuid "0119c2be-3f58-478f-a248-1290a455c1f0")
+		)
+		(pin "B3"
+			(uuid "3e650a1f-2392-4bb4-8f27-18ba9b289403")
+		)
+		(pin "D3"
+			(uuid "fb3edac9-d638-41ed-9ddb-4f2f40e69162")
+		)
+		(pin "D2"
+			(uuid "e58bab3a-abc3-485d-8914-38f51fd86b43")
+		)
+		(pin "B1"
+			(uuid "f2c9ba3e-d6c4-47a9-9212-fc862f30317d")
+		)
+		(pin "B4"
+			(uuid "9ea80a91-ad8f-47d5-88c0-af803e4400fb")
+		)
+		(instances
+			(project "powerboard"
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386"
+					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "review:REC30K-4812DZ")
+		(at 266.7 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a21b7d0-0525-4553-baa5-dbd0f4ad712c")
+		(property "Reference" "PS2"
+			(at 266.7 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "REC30K-4812DZ"
+			(at 266.7 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "review:DIP-6-25.4x25.4"
+			(at 304.292 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://recom-power.com/pdf/Econoline/REC30K(-Z).pdf"
+			(at 321.056 169.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Isolated Module DC DC Converter 2 Output 12V -12V 1.25A, 1.25A 18V - 75V Input 6-DIP"
+			(at 337.566 164.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description pt-br" "Módulo Conversor DC-DC Isolado com 2 Saídas 12V e -12V, 1.25A, Entrada de 18V a 75V 6-DIP"
+			(at 340.868 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Recom Power"
+			(at 299.212 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "REC30K-4812DZ"
+			(at 300.736 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SAP Code" ""
+			(at 266.7 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLM Code" ""
+			(at 266.7 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliance" "Yes"
+			(at 294.386 183.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NCM" "8504.40"
+			(at 296.672 187.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead Time (W)" "LT"
+			(at 293.624 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maturity Level" "P/V/F"
+			(at 295.656 179.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Criticality" "C/S/G"
+			(at 295.91 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "Mateus Lourenço 18/05/2026"
+			(at 307.34 174.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reviewed by" ""
+			(at 266.7 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e48ea736-7b42-4a7c-a559-a6be946e8ddd")
+		)
+		(pin "6"
+			(uuid "125c169e-2640-4040-8505-8eec70335881")
+		)
+		(pin "5"
+			(uuid "c9275949-f589-47d7-a1e9-5d709af78317")
+		)
+		(pin "2"
+			(uuid "494bee49-e1e5-4378-9ef3-350c408d8038")
+		)
+		(pin "4"
+			(uuid "e7a86286-7318-4841-96df-c0e9f076ad20")
+		)
+		(pin "3"
+			(uuid "6043018b-f1c3-46e8-8236-416d0371bd4d")
+		)
+		(instances
+			(project ""
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386"
+					(reference "PS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "review:REC30K-4815DZ")
+		(at 265.43 313.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8afedb00-259f-46aa-804a-9d8e7bef95a3")
+		(property "Reference" "PS3"
+			(at 265.43 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "REC30K-4815DZ"
+			(at 265.43 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "review:DIP-6-25.4x25.4"
+			(at 303.022 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://recom-power.com/pdf/Econoline/REC30K(-Z).pdf"
+			(at 319.786 303.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Isolated Module DC DC Converter 2 Output 15V -15V 1A, 1A 18V - 75V Input 6-DIP"
+			(at 332.994 298.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description pt-br" "Módulo Conversor DC-DC Isolado com 2 Saídas 15V e -15V, 1A, Entrada de 18V a 75V 6-DIP"
+			(at 337.82 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Recom Power"
+			(at 297.942 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "REC30K-4812DZ"
+			(at 299.466 305.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SAP Code" ""
+			(at 265.43 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLM Code" ""
+			(at 265.43 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliance" "Yes"
+			(at 293.116 316.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NCM" "8504.40"
+			(at 295.402 320.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead Time (W)" "LT"
+			(at 292.354 310.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Maturity Level" "P/V/F"
+			(at 294.386 312.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Criticality" "C/S/G"
+			(at 294.64 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "Mateus Lourenço 18/05/2026"
+			(at 306.07 307.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reviewed by" ""
+			(at 265.43 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50da6b84-de80-49ab-89fd-a57b22876464")
+		)
+		(pin "5"
+			(uuid "a76d2b09-8b18-44c3-bb50-b8ec2008647b")
+		)
+		(pin "4"
+			(uuid "5b168410-eddf-4389-8c65-bbf16eeded6b")
+		)
+		(pin "2"
+			(uuid "420e6a1d-6225-4cfd-9f40-8d5940524530")
+		)
+		(pin "6"
+			(uuid "3e3947b8-9261-44b5-89ff-853b9012f4a6")
+		)
+		(pin "3"
+			(uuid "d146c5d5-adc6-43a7-b6e0-732a98d30a4f")
+		)
+		(instances
+			(project ""
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386"
+					(reference "PS3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "digikey:INA2227AIYBJR")
+		(at 332.74 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "934c4738-c342-46bd-b9b2-c9abb5e69b3b")
+		(property "Reference" "U18"
+			(at 334.01 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "INA2227AIYBJR"
+			(at 334.01 57.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "digikey:U_BGA_YBJ0016-C01_TEX-M"
+			(at 405.892 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/ina2227"
+			(at 411.48 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 332.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "D1"
+			(uuid "c07d54c3-8e2a-494e-81a2-076bfe00ed9f")
+		)
+		(pin "C2"
+			(uuid "c46a467a-6aae-43a7-9beb-8a35dfbe8688")
+		)
+		(pin "C1"
+			(uuid "3417a51d-1f8d-4b00-98f9-42dd131ff01d")
+		)
+		(pin "C3"
+			(uuid "5f76f03a-e58c-4761-885d-1c0a3ca14759")
+		)
+		(pin "C4"
+			(uuid "c42f7e76-462f-4f0c-8586-a3586abc16fe")
+		)
+		(pin "A1"
+			(uuid "875f2618-fedc-4688-9ff3-58888bb64cdf")
+		)
+		(pin "D4"
+			(uuid "d8c55f39-9206-424c-85a8-65c465acf6af")
+		)
+		(pin "A2"
+			(uuid "a3aeba3c-4955-4fbb-80fc-8e95fc414842")
+		)
+		(pin "B2"
+			(uuid "7f3882e7-ca27-4415-bbbe-21b53429dbee")
+		)
+		(pin "A3"
+			(uuid "bf9c9d8f-63bb-4585-88a6-4b35ac29c8e8")
+		)
+		(pin "A4"
+			(uuid "83e38a2a-074c-4bdd-a8bd-0a41b38bc5b8")
+		)
+		(pin "B3"
+			(uuid "1470d255-2bfd-4640-8d69-b90bdab44084")
+		)
+		(pin "D3"
+			(uuid "ccda9b34-0247-4199-adc8-9edd1dda7c2c")
+		)
+		(pin "D2"
+			(uuid "1b4b41de-d4b9-40c2-8e35-db83add1e6ba")
+		)
+		(pin "B1"
+			(uuid "14ed44dd-12dd-4628-b87f-d164cbdc87f9")
+		)
+		(pin "B4"
+			(uuid "b050913f-6e07-423d-8512-c552c1302ec1")
+		)
+		(instances
+			(project ""
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386"
+					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "integrated-circuit:ADM3260ARSZ-RL7")
+		(at 200.66 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e0ce28d-c169-4213-a16e-b1e09b56c0f5")
+		(property "Reference" "U22"
+			(at 200.66 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "ADM3260ARSZ-RL7"
+			(at 200.66 161.29 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "digikey:SSOP-20_RS-20_ADI-M"
+			(at 278.892 182.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3260.pdf"
+			(at 312.928 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "9ac58a5c-a252-4de1-8f42-8a5dc614b31e")
+		)
+		(pin "19"
+			(uuid "02541db1-be97-49af-8fc0-0455e5835d3e")
+		)
+		(pin "18"
+			(uuid "80929cb7-bbdf-4ad9-8239-34c58c569e09")
+		)
+		(pin "2"
+			(uuid "56a2c212-f3f2-43e2-a9fa-0b8f4348200b")
+		)
+		(pin "13"
+			(uuid "71e1e3d5-4fb2-42c2-beb1-12bc9a78ae22")
+		)
+		(pin "1"
+			(uuid "986833a4-188f-4c66-8d4a-9a08fadeabc2")
+		)
+		(pin "7"
+			(uuid "06491b8d-983a-4278-ad6c-5280578b34b3")
+		)
+		(pin "15"
+			(uuid "cbefa9a6-d3ef-45ab-bd3b-faef9466ff6c")
+		)
+		(pin "10"
+			(uuid "a74318e9-15fd-47bf-9895-6df4c28a98d2")
+		)
+		(pin "20"
+			(uuid "7eba6571-bb3a-458d-b85a-f3e4c727a2dc")
+		)
+		(pin "17"
+			(uuid "164c8e2e-ed0d-46e8-a6fb-284b2bcafe1e")
+		)
+		(pin "16"
+			(uuid "ed8a0605-a28f-4aee-95e9-b4fac67536cc")
+		)
+		(pin "14"
+			(uuid "eb76135e-014f-464a-97c3-55fe59149ddd")
+		)
+		(pin "12"
+			(uuid "f9966287-78ec-4d01-97ce-fc77d6b6ab01")
+		)
+		(pin "3"
+			(uuid "d3350809-a2be-457d-a5f3-0d6132650800")
+		)
+		(pin "9"
+			(uuid "9f510b79-0089-4016-b8b5-f0d8d3c01210")
+		)
+		(pin "5"
+			(uuid "1975fe69-2532-48f5-81b9-a508356542dc")
+		)
+		(pin "6"
+			(uuid "8e2e5c46-0e87-4229-991f-3ed662b141f2")
+		)
+		(pin "4"
+			(uuid "2208a835-96c8-48ab-9a08-a754da3c0f37")
+		)
+		(pin "11"
+			(uuid "bec00d8d-3011-4600-99d5-17ad8b148db2")
+		)
+		(instances
+			(project "powerboard"
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386"
+					(reference "U22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "integrated-circuit:ADM3260ARSZ-RL7")
+		(at 204.47 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad9e10a9-3e7a-4669-a4f3-001894080a41")
+		(property "Reference" "U21"
+			(at 204.47 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "ADM3260ARSZ-RL7"
+			(at 204.47 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "digikey:SSOP-20_RS-20_ADI-M"
+			(at 282.702 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3260.pdf"
+			(at 316.738 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "5d86ea0e-4ea6-420d-965a-f2402608491b")
+		)
+		(pin "19"
+			(uuid "41a7c0fb-4bf0-4eee-834a-7c1bddd846e1")
+		)
+		(pin "18"
+			(uuid "1c27c4d2-c75c-4d18-907f-604616171433")
+		)
+		(pin "2"
+			(uuid "00168ae3-c219-49f6-9c1e-1f901b8faaa7")
+		)
+		(pin "13"
+			(uuid "385cfbbf-0564-4b43-9f5b-f58525937f94")
+		)
+		(pin "1"
+			(uuid "fdb55aa0-2cb7-4d7a-872d-299b1eaa7622")
+		)
+		(pin "7"
+			(uuid "704dd0d7-68c4-4019-bfc5-40f8b970219c")
+		)
+		(pin "15"
+			(uuid "2999649b-9dbb-4dbb-95c0-ca1c91ff4a1c")
+		)
+		(pin "10"
+			(uuid "5b636eb3-433c-4a54-8486-5fa90b37079f")
+		)
+		(pin "20"
+			(uuid "b6b15c36-7227-42bf-943e-c952c1237410")
+		)
+		(pin "17"
+			(uuid "fde14e4b-9df5-4eb3-9319-f1fd854c6697")
+		)
+		(pin "16"
+			(uuid "d04521e2-4c15-4f09-82d7-c39b03d938c1")
+		)
+		(pin "14"
+			(uuid "631c9889-b6a6-48e6-a785-cf9db75f4369")
+		)
+		(pin "12"
+			(uuid "b04f371b-f4b0-466b-8228-7171f2dfcf28")
+		)
+		(pin "3"
+			(uuid "ff712846-7952-4f18-a109-7e90cd314165")
+		)
+		(pin "9"
+			(uuid "e4912bfa-5978-4659-991d-9bc82877b003")
+		)
+		(pin "5"
+			(uuid "401f3a3c-129c-4374-bb3e-d09272367bc4")
+		)
+		(pin "6"
+			(uuid "1ab7aef9-a4be-4ef9-afb4-2e8bc00a5379")
+		)
+		(pin "4"
+			(uuid "a84badcd-52d1-4cbc-af17-1a7d44056eb4")
+		)
+		(pin "11"
+			(uuid "154dcf49-9d29-4fbb-a9d1-9b6df737ebd6")
+		)
+		(instances
+			(project "powerboard"
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386"
+					(reference "U21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 377.19 294.64)
+		(size 40.64 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0f760b14-a724-4c76-8d65-3e8bca8249b7")
+		(property "Sheetname" "Current shunt4"
+			(at 377.19 293.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "current_sensing.kicad_sch"
+			(at 382.524 310.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INA+" input
+			(at 377.19 298.45 180)
+			(uuid "da5e421d-9d95-4d5c-aada-1de0d48f39af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INA-" input
+			(at 377.19 300.99 180)
+			(uuid "d59efae7-29f4-4752-982b-2a9d18f342a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT_CURRENT" input
+			(at 377.19 306.07 180)
+			(uuid "b92ba548-a79b-4ddd-ad34-9ecd52f683f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTPUT_CURRENT" output
+			(at 417.83 306.07 0)
+			(uuid "868b9997-eaa7-45bb-a62b-5410c77d6303")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCALE" output
+			(at 417.83 297.18 0)
+			(uuid "34a4e087-5684-4a82-afb0-d98e1ace56da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "powerboard"
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 378.46 181.61)
+		(size 40.64 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1d024614-d01c-44f7-b117-54924d6651c3")
+		(property "Sheetname" "Current shunt3"
+			(at 378.46 180.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "current_sensing.kicad_sch"
+			(at 383.794 197.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INA+" input
+			(at 378.46 185.42 180)
+			(uuid "ae03a1a7-97ca-4a53-9adc-302dbbbf9dd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INA-" input
+			(at 378.46 187.96 180)
+			(uuid "e4b27d27-d075-4f9f-8503-9315440d1de5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT_CURRENT" input
+			(at 378.46 193.04 180)
+			(uuid "d0b66446-354b-428a-9b74-6fd8c83ffab2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTPUT_CURRENT" output
+			(at 419.1 193.04 0)
+			(uuid "2f5140fa-c4e4-4233-a4c3-1103a3802a22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCALE" output
+			(at 419.1 184.15 0)
+			(uuid "b3c24b8c-8314-4348-9a42-c6a343704459")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "powerboard"
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 377.19 316.23)
+		(size 40.64 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3b5a9a59-7ef4-4747-b402-f59cc6e757f3")
+		(property "Sheetname" "Current shunt5"
+			(at 377.19 315.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "current_sensing.kicad_sch"
+			(at 382.524 332.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INA+" input
+			(at 377.19 320.04 180)
+			(uuid "400498a7-a8a4-4ddb-91e5-04f0bca45f02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INA-" input
+			(at 377.19 322.58 180)
+			(uuid "c9f0f7d8-95ec-4fa1-8fc3-57ab89bdd0a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT_CURRENT" input
+			(at 377.19 327.66 180)
+			(uuid "281dd442-fd49-4df2-b7a8-96a5812a3c18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTPUT_CURRENT" output
+			(at 417.83 327.66 0)
+			(uuid "1dfc5875-c4f5-409c-9a80-5d61733b0c26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCALE" output
+			(at 417.83 318.77 0)
+			(uuid "ece1c4ce-58d0-4f02-b64c-706265671988")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "powerboard"
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 381 76.2)
+		(size 40.64 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "516db650-12b9-4621-ac8e-ce7f6f27f1ae")
+		(property "Sheetname" "Current shunt1"
+			(at 381 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "current_sensing.kicad_sch"
+			(at 386.334 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INA+" input
+			(at 381 80.01 180)
+			(uuid "5c008a7f-4503-4bab-ba40-6f5f2c3d4308")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INA-" input
+			(at 381 82.55 180)
+			(uuid "1566509f-37a5-4c40-b70c-98d94c74270a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT_CURRENT" input
+			(at 381 87.63 180)
+			(uuid "0a8b9862-7c51-4167-9c76-78e27d4c5bee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTPUT_CURRENT" output
+			(at 421.64 87.63 0)
+			(uuid "e8faacd9-bffa-47ff-be3a-f09dc3cb31d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCALE" output
+			(at 421.64 78.74 0)
+			(uuid "46773417-f972-419c-a6ed-e4cfbc20fadb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "powerboard"
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 378.46 160.02)
+		(size 40.64 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b4e12382-7be9-4924-8c42-894e96a53f10")
+		(property "Sheetname" "Current shunt2"
+			(at 378.46 159.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "current_sensing.kicad_sch"
+			(at 383.794 176.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INA+" input
+			(at 378.46 163.83 180)
+			(uuid "cd8a4633-da7e-4aaa-bc2a-34ef3c33e81f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INA-" input
+			(at 378.46 166.37 180)
+			(uuid "d2fff315-b6a9-4a17-ad15-240b9d09f2b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT_CURRENT" input
+			(at 378.46 171.45 180)
+			(uuid "db8ad098-2660-4992-98ee-befd5c72cea1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTPUT_CURRENT" output
+			(at 419.1 171.45 0)
+			(uuid "65f85caa-326b-440f-b24a-d2eb171bb402")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCALE" output
+			(at 419.1 162.56 0)
+			(uuid "7846b2e5-9e06-45ac-8372-10e0b8278e33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "powerboard"
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 381 54.61)
+		(size 40.64 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ca218db4-d2e3-4220-9111-959153a13616")
+		(property "Sheetname" "Current shunt"
+			(at 381 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "current_sensing.kicad_sch"
+			(at 386.334 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INA+" input
+			(at 381 58.42 180)
+			(uuid "c2802e23-e8cc-4282-85f9-4dc3551e9e46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INA-" input
+			(at 381 60.96 180)
+			(uuid "ca246c3f-63ef-4c58-9d2d-14c443368566")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT_CURRENT" input
+			(at 381 66.04 180)
+			(uuid "1389011d-e98e-4b2b-8594-f6317231d03a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTPUT_CURRENT" output
+			(at 421.64 66.04 0)
+			(uuid "fe1be609-f6c4-4209-b777-55f1bc18c4b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCALE" output
+			(at 421.64 57.15 0)
+			(uuid "711b3787-c809-4732-87fe-2538b6a91619")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "powerboard"
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386"
+					(page "9")
+				)
+			)
+		)
+	)
+)

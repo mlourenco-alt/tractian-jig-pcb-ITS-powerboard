@@ -1,0 +1,162 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "35e3e532-4441-421d-8089-d23f23a4400e")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "-15V_ISO_OUT"
+		(shape output)
+		(at 81.28 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15a0b812-7365-4f4a-a1ed-09ecdba760f9")
+	)
+	(hierarchical_label "13V_EN"
+		(shape input)
+		(at 46.99 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "546558bb-3b1a-4b5c-8311-143dd0c034f7")
+	)
+	(hierarchical_label "+12V_ISO_OUT"
+		(shape output)
+		(at 81.28 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6508ca8e-0f8f-4617-abc3-af3f79a3dbea")
+	)
+	(hierarchical_label "15V_EN"
+		(shape input)
+		(at 46.99 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "693b6b85-4abe-4627-91c7-f391eb314c4f")
+	)
+	(hierarchical_label "+15V_ISO_OUT"
+		(shape output)
+		(at 81.28 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "711cfa0e-fbcd-4b60-9ac7-a2a2f5e28f36")
+	)
+	(hierarchical_label "-12V_ISO_OUT"
+		(shape output)
+		(at 81.28 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "72c0bd3c-3c0a-4fd1-a050-8e3bec2926e5")
+	)
+	(hierarchical_label "GND(15V)_ISO_OUT"
+		(shape output)
+		(at 81.28 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f4316f6-f831-446e-9c06-a3f42c367269")
+	)
+	(hierarchical_label "GND(12V)_ISO_OUT"
+		(shape output)
+		(at 81.28 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95860709-aac1-45f7-bc32-2286e098006c")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 46.99 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "972e39fc-b731-4e4a-98bb-586a3b4935bc")
+	)
+	(hierarchical_label "12V_EN"
+		(shape input)
+		(at 46.99 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97741bbb-f53a-4ce5-bfa5-d669e8f9715f")
+	)
+	(hierarchical_label "24V"
+		(shape input)
+		(at 46.99 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b37a6bb-7d4c-4e11-8b27-1e74ce2d5699")
+	)
+	(hierarchical_label "-5V_ISO_OUT"
+		(shape output)
+		(at 81.28 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1df5627-c307-4c4c-a24a-e49a5b22e8c7")
+	)
+	(hierarchical_label "GND(5V)_ISO_OUT"
+		(shape output)
+		(at 81.28 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7e52c4e-0eee-44fd-ba2f-02cbf5685b9a")
+	)
+	(hierarchical_label "+5V_ISO_OUT"
+		(shape output)
+		(at 81.28 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e27474cf-751b-4361-a588-ba1a0c50d7e2")
+	)
+)

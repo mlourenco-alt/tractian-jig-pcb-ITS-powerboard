@@ -1,0 +1,4453 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3257e834-d5df-4d16-8630-823829b0ec60")
+	(paper "A2")
+	(lib_symbols
+		(symbol "integrated-circuit:TPL0102-100PWR"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPL0102-100PWR"
+				(at 0 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "semiconductor:TSSOP-14_P0.65_4.4x5x1.2"
+				(at 25.4 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpl0102-100.pdf?ts=1729112466273&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPL0102-100%253FkeyMatch%253DTPL0102-100PWR%2526tisearch%253Duniversal_search%2526usecase%253DOPN"
+				(at 25.4 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Digital Potentiometer 2 Channels 100k 256 steps I2C -40°C 85°C SMD TSSOP-14"
+				(at 25.4 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description pt-br" "Potenciômetro Digital 2 Canais 100k 256 passos I2C -40°C 85°C SMD TSSOP-14"
+				(at 25.4 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 25.4 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "TPL0102-100PWR"
+				(at 25.4 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "SAP Code" "CISC-XXXX"
+				(at 25.4 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "PLM Code" "TBD"
+				(at 25.4 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "RoHS Compliance" "Yes"
+				(at 25.4 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "NCM" "8542.39.39"
+				(at 25.4 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Lead Time (W)" "LT"
+				(at 25.4 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Maturity Level" "P/V/F"
+				(at 25.4 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Criticality" "C/S/G"
+				(at 25.4 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Created by" "Marcelo Felix 16/10/2024"
+				(at 25.4 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Reviewed by" "Iago Melo 05/11/2024"
+				(at 25.4 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "TPL0102-100PWR_0_1"
+				(polyline
+					(pts
+						(xy 2.54 10.16) (xy 3.175 10.795)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 10.16) (xy 3.175 9.525)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 10.16) (xy 5.334 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 3.175 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 3.175 -5.715)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 5.334 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 15.24) (xy 1.27 15.24) (xy 1.27 13.0302) (xy 1.905 12.7) (xy 0 12.065) (xy 1.905 11.43)
+						(xy 0 10.795) (xy 1.905 10.16) (xy 0 9.525) (xy 1.905 8.89) (xy 0 8.255) (xy 1.27 7.62) (xy 1.27 5.08)
+						(xy 5.08 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 1.27 0) (xy 1.27 -2.2098) (xy 1.905 -2.54) (xy 0 -3.175) (xy 1.905 -3.81) (xy 0 -4.445)
+						(xy 1.905 -5.08) (xy 0 -5.715) (xy 1.905 -6.35) (xy 0 -6.985) (xy 1.27 -7.62) (xy 1.27 -10.16)
+						(xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TPL0102-100PWR_1_1"
+				(rectangle
+					(start -10.16 17.78)
+					(end 10.16 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -15.24 15.24 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -5.08 0)
+					(length 5.08)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -7.62 0)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -10.16 0)
+					(length 5.08)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -15.24 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(name "HA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 10.16 180)
+					(length 5.08)
+					(name "WA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "LA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "HB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "WB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -10.16 180)
+					(length 5.08)
+					(name "LB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "integrated-circuit:TPS1H100BQPWPRQ1"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS1H100BQPWPRQ1"
+				(at 0 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "semiconductor:HTSSOP-14-1EP_P0.65_4.4x5x1.2"
+				(at 29.21 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps1h100-q1.pdf"
+				(at 29.21 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "IC Power Switch High-Side 4A 3.5V~40V -40°C 125°C SMD HTSSOP-14"
+				(at 29.21 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description pt-br" "CI Chave de Energia High-Side 4A 3.5V~40V -40°C 125°C SMD HTSSOP-14"
+				(at 29.21 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 29.21 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "TPS1H100BQPWPRQ1"
+				(at 29.21 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "SAP Code" "CISG-0003"
+				(at 29.21 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "PLM Code" "PRPTRAC00000657"
+				(at 29.21 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "RoHS Compliance" "Yes"
+				(at 29.21 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "NCM" "8542.39.39"
+				(at 29.21 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Lead Time (W)" "LT"
+				(at 29.21 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Maturity Level" "P/V/F"
+				(at 29.21 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Criticality" "C/S/G"
+				(at 29.21 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Created by" "Kimon Pediatidakis 11/03/2024"
+				(at 29.21 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Reviewed by" "Marcelo Felix 11/04/2024"
+				(at 29.21 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "TPS1H100BQPWPRQ1_0_1"
+				(rectangle
+					(start -12.7 27.94)
+					(end 12.7 -27.94)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TPS1H100BQPWPRQ1_1_1"
+				(pin power_in line
+					(at -17.78 25.4 0)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 10.16 0)
+					(length 5.08)
+					(name "DIAG_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "CL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 -22.86 0)
+					(length 5.08)
+					(name "Thermal_Pad"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 -25.4 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 1.27 -31.75 0)
+					(length 0)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 1.27 -35.56 0)
+					(length 0)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 1.27 -39.37 0)
+					(length 0)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 25.4 180)
+					(length 5.08)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 22.86 180)
+					(length 5.08)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 20.32 180)
+					(length 5.08)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "review:INA4235AIYBJR"
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "INA4235AIYBJR"
+				(at 0 14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "review:DSBGA-16_P0.4_1.508X1.508mm"
+				(at 43.18 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina4235.pdf?ts=1778744255228"
+				(at 57.404 14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "IC Quad Channel 16-bit Digital Current Monitor I2C -55°C 150C° SMD DSBGA"
+				(at 62.484 11.938 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description pt-br" "CI Monitor de Corrente Quatro Canais 16-bits I2C -55°C 150C° SMD DSBGA"
+				(at 61.468 9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 32.766 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Partnumber" "INA4235AIYBJR"
+				(at 30.988 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SAP Code" "CISA-XXXX"
+				(at 23.876 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "PLM Code" "TBD"
+				(at 24.13 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "RoHS Complience" "Yes"
+				(at 25.654 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "NCM" "8542.39.19"
+				(at 29.464 -0.762 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Lead Time (W)" "LT"
+				(at 24.384 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Maturity Level" "P/V/F"
+				(at 24.13 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Criticality" "C/S/G"
+				(at 24.13 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Created by" "Mateus Lourenço 14/05/2026"
+				(at 39.116 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Reviewed by" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "INA4235AIYBJR_1_1"
+				(rectangle
+					(start -10.16 11.43)
+					(end 10.16 -11.43)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+				(pin passive line
+					(at -15.24 8.89 0)
+					(length 5.08)
+					(name "IN+1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 6.35 0)
+					(length 5.08)
+					(name "IN-1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -6.35 0)
+					(length 5.08)
+					(name "IN+2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -8.89 0)
+					(length 5.08)
+					(name "IN-2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 8.89 180)
+					(length 5.08)
+					(name "IN+3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 6.35 180)
+					(length 5.08)
+					(name "IN-3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -6.35 180)
+					(length 5.08)
+					(name "IN+4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -8.89 180)
+					(length 5.08)
+					(name "IN-4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "INA4235AIYBJR_2_1"
+				(rectangle
+					(start -8.89 12.7)
+					(end 8.89 -12.7)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -13.97 10.16 0)
+					(length 5.08)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 0 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -13.97 -10.16 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.97 10.16 180)
+					(length 5.08)
+					(name "ALERT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 13.97 2.54 180)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 0 180)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 -7.62 180)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 -10.16 180)
+					(length 5.08)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text_box "Check for this circuits\nalternatives for low-side\nswitch"
+		(exclude_from_sim no)
+		(at 308.61 288.29 0)
+		(size 36.83 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 194 194 194 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 194 194 194 1)
+			)
+			(justify left top)
+		)
+		(uuid "b40dab35-aa61-499b-b86f-d43f63bf4884")
+	)
+	(wire
+		(pts
+			(xy 261.62 341.63) (xy 264.16 341.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0109d82e-6a93-494b-9f85-7135de6f9b62")
+	)
+	(wire
+		(pts
+			(xy 184.15 308.61) (xy 187.96 308.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1212362a-e4cf-46b0-842c-cb8565c5be20")
+	)
+	(wire
+		(pts
+			(xy 184.15 311.15) (xy 187.96 311.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23fb931d-9553-49ee-9c29-05d12c13e989")
+	)
+	(wire
+		(pts
+			(xy 262.89 269.24) (xy 264.16 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27e7d317-dd08-4f15-97a4-ca926e122f5b")
+	)
+	(wire
+		(pts
+			(xy 261.62 344.17) (xy 264.16 344.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2857d834-2610-4ee9-998c-7cc79a0f4cbd")
+	)
+	(wire
+		(pts
+			(xy 262.89 72.39) (xy 264.16 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31615b2b-ded9-47f0-809c-43dd92fdcae7")
+	)
+	(wire
+		(pts
+			(xy 262.89 266.7) (xy 264.16 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf06194-64d5-49d7-aeef-f891d0b06924")
+	)
+	(wire
+		(pts
+			(xy 171.45 105.41) (xy 175.26 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "687f202e-f451-4549-9aa0-240dcdb1784c")
+	)
+	(wire
+		(pts
+			(xy 262.89 133.35) (xy 264.16 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f953efd-4e1c-4859-8086-56b0d0bc0058")
+	)
+	(wire
+		(pts
+			(xy 262.89 151.13) (xy 264.16 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d9e701d-0b2e-4b6a-b227-be5616b06248")
+	)
+	(wire
+		(pts
+			(xy 262.89 148.59) (xy 264.16 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84466ef5-f122-41b4-8eaf-92875cbdcaca")
+	)
+	(wire
+		(pts
+			(xy 69.85 201.93) (xy 83.82 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8558f98e-5f30-4e87-8caa-02c9ad4a4761")
+	)
+	(wire
+		(pts
+			(xy 69.85 190.5) (xy 99.06 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0a66fc3-b304-493a-9ca1-eca7cb4642f7")
+	)
+	(wire
+		(pts
+			(xy 69.85 199.39) (xy 83.82 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b45067de-a502-4148-a94a-2b431550ae98")
+	)
+	(wire
+		(pts
+			(xy 171.45 102.87) (xy 175.26 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e2fd49-9add-46b3-aca0-aad0cd609edb")
+	)
+	(wire
+		(pts
+			(xy 69.85 187.96) (xy 83.82 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7796184-8e99-4809-91ee-a38a055c3dba")
+	)
+	(wire
+		(pts
+			(xy 262.89 251.46) (xy 264.16 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d09a28a9-6308-4516-b75b-bf68c225eb02")
+	)
+	(wire
+		(pts
+			(xy 69.85 185.42) (xy 72.39 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e03fad65-dace-4e18-a4bf-a4215ceb6907")
+	)
+	(wire
+		(pts
+			(xy 262.89 69.85) (xy 264.16 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef6daa70-7e57-4c07-bf5e-b8c901225bea")
+	)
+	(wire
+		(pts
+			(xy 262.89 326.39) (xy 264.16 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9bf06fa-8de7-45e1-9c6c-bec29a73a646")
+	)
+	(wire
+		(pts
+			(xy 262.89 54.61) (xy 264.16 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff7bfb14-26db-447f-a8cc-0750a818d074")
+	)
+	(global_label "SCK_ISO"
+		(shape input)
+		(at 262.89 269.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "197504b8-3ed0-4702-bfc9-385b60812e65")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.0429 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK_ISO"
+		(shape input)
+		(at 262.89 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ee80627-7b15-4891-b1f2-cd02577900db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.0429 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA_ISO"
+		(shape input)
+		(at 262.89 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "22f26a9b-04d7-4e62-afa7-9c87fd519f5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.2243 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK_ISO"
+		(shape input)
+		(at 83.82 199.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24336b1c-bb52-476e-b1aa-bb7b9008a281")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.6671 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK_ISO"
+		(shape input)
+		(at 262.89 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57296a3a-6d23-43a8-a126-534f59f9eb41")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.0429 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "-15V_ISO"
+		(shape input)
+		(at 99.06 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a2f6710-542e-4ce5-915b-372b605926fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.2376 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK_ISO"
+		(shape input)
+		(at 261.62 344.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d26947d-dbcb-48aa-bed2-aafc7f25209f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.7729 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK_ISO"
+		(shape input)
+		(at 184.15 308.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7943a6c7-86a9-4220-ad12-2bf05eeddf73")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.3029 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA_ISO"
+		(shape input)
+		(at 184.15 311.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "816d761c-039c-4c4a-8cc1-4d77789ad08d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.4843 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK_ISO"
+		(shape input)
+		(at 171.45 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a0bc031-ec0b-4555-a935-ca92791a5fb6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.6029 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA_ISO"
+		(shape input)
+		(at 83.82 201.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b4b3aa0-c24c-4ae2-9107-6a9695df40cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.4857 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA_ISO"
+		(shape input)
+		(at 261.62 341.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f7e8876-1468-4c41-8bb0-814ed01d5338")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.9543 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA_ISO"
+		(shape input)
+		(at 262.89 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91f6f6a5-972b-4ffe-aad5-0f212078b7e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.2243 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_15V_ISO"
+		(shape input)
+		(at 83.82 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9368833e-77ba-4a3a-a25d-deb33bdf86fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.2633 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA_ISO"
+		(shape input)
+		(at 171.45 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac4ff9a7-0d25-48dd-a362-ef1ffceadec8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.7843 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA_ISO"
+		(shape input)
+		(at 262.89 266.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6915fcb-e314-48c8-8198-68cf6ce15f2a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.2243 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+15V_ISO"
+		(shape input)
+		(at 72.39 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe48e5d1-7d31-4023-b93f-ac4767d14002")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.5676 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "SDA_ISO"
+		(shape bidirectional)
+		(at 69.85 201.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ddb4766-200f-402c-84d3-4526b0927810")
+	)
+	(hierarchical_label "+15V_ISO"
+		(shape input)
+		(at 69.85 185.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2fafac21-b6a8-4bd7-9c5a-3e899a5b1b39")
+	)
+	(hierarchical_label "SCK_ISO"
+		(shape bidirectional)
+		(at 69.85 199.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "31632279-a48b-42b1-81d6-69891dfc455c")
+	)
+	(hierarchical_label "GND_15V_ISO"
+		(shape input)
+		(at 69.85 187.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "39398181-c236-482e-b50a-b615ac4a9b94")
+	)
+	(hierarchical_label "-LDO_ISO_EN"
+		(shape input)
+		(at 64.77 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "503e7862-bd6e-4a30-ad5a-2eec6d01b1f1")
+	)
+	(hierarchical_label "-15V_ISO"
+		(shape input)
+		(at 69.85 190.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55f34d2d-b3a5-4ed6-a751-e06c18cb68dc")
+	)
+	(hierarchical_label "-PWR_SWITCH_ISO_2X_EN"
+		(shape input)
+		(at 262.89 326.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e422d1b-cd1c-4a16-904d-c0112b4bd0b4")
+	)
+	(hierarchical_label "+PWR_SWITCH_ISO_2X_EN"
+		(shape input)
+		(at 262.89 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba3d917a-2b94-4d67-b36e-6d94eb39a7f1")
+	)
+	(hierarchical_label "+PWR_SWITCH_ISO_1X_EN"
+		(shape input)
+		(at 262.89 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c57a2347-f3f9-4ba9-b4a9-f491b1f3c4c1")
+	)
+	(hierarchical_label "+LDO_ISO_EN"
+		(shape input)
+		(at 64.77 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3eedfbd-75be-4d44-bb8c-f10f3dcd3791")
+	)
+	(hierarchical_label "-PWR_SWITCH_ISO_1X_EN"
+		(shape input)
+		(at 262.89 251.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8c89d39-62a5-4ea1-8c15-4e8800341e7e")
+	)
+	(symbol
+		(lib_id "integrated-circuit:TPL0102-100PWR")
+		(at 190.5 102.87 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "202a4aed-e54b-4393-832f-c6428286cc62")
+		(property "Reference" "U7"
+			(at 190.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPL0102-100PWR"
+			(at 190.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "semiconductor:TSSOP-14_P0.65_4.4x5x1.2"
+			(at 215.9 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpl0102-100.pdf?ts=1729112466273&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPL0102-100%253FkeyMatch%253DTPL0102-100PWR%2526tisearch%253Duniversal_search%2526usecase%253DOPN"
+			(at 215.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital Potentiometer 2 Channels 100k 256 steps I2C -40°C 85°C SMD TSSOP-14"
+			(at 215.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description pt-br" "Potenciômetro Digital 2 Canais 100k 256 passos I2C -40°C 85°C SMD TSSOP-14"
+			(at 215.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 215.9 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TPL0102-100PWR"
+			(at 215.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SAP Code" "CISC-XXXX"
+			(at 215.9 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PLM Code" "TBD"
+			(at 215.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliance" "Yes"
+			(at 215.9 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "NCM" "8542.39.39"
+			(at 215.9 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Lead Time (W)" "LT"
+			(at 215.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Maturity Level" "P/V/F"
+			(at 215.9 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Criticality" "C/S/G"
+			(at 215.9 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Created by" "Marcelo Felix 16/10/2024"
+			(at 215.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Reviewed by" "Iago Melo 05/11/2024"
+			(at 215.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8f1f2f21-bc27-4c2e-95c1-3c50c08c6c02")
+		)
+		(pin "7"
+			(uuid "cd1398f5-32c8-48f4-bd77-ac4060f47522")
+		)
+		(pin "9"
+			(uuid "41b2da8f-2924-44a8-8c58-2df847ce486e")
+		)
+		(pin "1"
+			(uuid "daceaadb-9e01-402e-b38a-d3544964fb13")
+		)
+		(pin "12"
+			(uuid "5d48cb88-3ce2-4cb7-ad77-5ed3682b206f")
+		)
+		(pin "10"
+			(uuid "bf42b752-fc8c-4e5d-9980-1d1b64772c6c")
+		)
+		(pin "5"
+			(uuid "1d9d22e1-014e-415d-97ca-0420c8fbbbb4")
+		)
+		(pin "11"
+			(uuid "d8f69a9d-7a72-4ba7-aac5-3d1225aeaedc")
+		)
+		(pin "13"
+			(uuid "19567e46-c66d-491b-aaac-f697d7fd5c12")
+		)
+		(pin "4"
+			(uuid "4ab9c5e0-ab98-46b2-be2c-c124780f5892")
+		)
+		(pin "6"
+			(uuid "bb1ed7e2-9ea4-42fb-b042-8fc0ee8753a4")
+		)
+		(pin "8"
+			(uuid "88e579db-aa9a-4d1e-aacf-c828217ed155")
+		)
+		(pin "3"
+			(uuid "a3fa536f-ebc4-4eec-a0f1-5a66ba1c97e3")
+		)
+		(pin "14"
+			(uuid "e3f55985-3f5e-4539-b1a9-ba2c1eb6e0ad")
+		)
+		(instances
+			(project "powerboard"
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/3d4e6ece-76f9-4a45-85d3-79a14d791d6e/1e69dd70-c193-4b0f-ad2d-2b2e5776a9d4"
+					(reference "U24")
+					(unit 1)
+				)
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/3d4e6ece-76f9-4a45-85d3-79a14d791d6e/eac1feed-7d23-4836-8575-b97d799b2734"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "integrated-circuit:TPS1H100BQPWPRQ1")
+		(at 281.94 143.51 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "222a1c3f-3f4d-4836-a7f7-8806a1143a55")
+		(property "Reference" "U9"
+			(at 281.94 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS1H100BQPWPRQ1"
+			(at 281.94 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "semiconductor:HTSSOP-14-1EP_P0.65_4.4x5x1.2"
+			(at 311.15 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps1h100-q1.pdf"
+			(at 311.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC Power Switch High-Side 4A 3.5V~40V -40°C 125°C SMD HTSSOP-14"
+			(at 311.15 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description pt-br" "CI Chave de Energia High-Side 4A 3.5V~40V -40°C 125°C SMD HTSSOP-14"
+			(at 311.15 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 311.15 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TPS1H100BQPWPRQ1"
+			(at 311.15 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SAP Code" "CISG-0003"
+			(at 311.15 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PLM Code" "PRPTRAC00000657"
+			(at 311.15 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliance" "Yes"
+			(at 311.15 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "NCM" "8542.39.39"
+			(at 311.15 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Lead Time (W)" "LT"
+			(at 311.15 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Maturity Level" "P/V/F"
+			(at 311.15 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Criticality" "C/S/G"
+			(at 311.15 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Created by" "Kimon Pediatidakis 11/03/2024"
+			(at 311.15 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Reviewed by" "Marcelo Felix 11/04/2024"
+			(at 311.15 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "23dcb1ca-15ef-498d-a5f0-7bc200f72fbd")
+		)
+		(pin "8"
+			(uuid "0d3118d1-99eb-42b8-97d6-ea4f8150b1dc")
+		)
+		(pin "12"
+			(uuid "f5cca3a1-e1c0-4394-a415-ffcceb2ad369")
+		)
+		(pin "6"
+			(uuid "2398b9b3-99b5-4963-84d7-8779b81be4d6")
+		)
+		(pin "10"
+			(uuid "7c3f1de0-21af-4aba-8f37-d56151eeed35")
+		)
+		(pin "11"
+			(uuid "ef78ffce-3ea0-46a9-8108-6e3407ab603b")
+		)
+		(pin "5"
+			(uuid "36b159f3-650b-429a-80e1-7c5c0e8ad9ce")
+		)
+		(pin "14"
+			(uuid "ad10a7fb-b6e0-4430-b97c-3d03b0a43233")
+		)
+		(pin "9"
+			(uuid "b66f7458-64a0-4f7c-b870-4b933a0a1a04")
+		)
+		(pin "2"
+			(uuid "3a8f1a67-4ab2-49ae-a6cf-fec34615ccde")
+		)
+		(pin "7"
+			(uuid "a4542b66-c187-46f9-a095-978ec6a52099")
+		)
+		(pin "4"
+			(uuid "8babc2d2-850a-4919-8ba2-1cc20fc9d349")
+		)
+		(pin "1"
+			(uuid "5f2cc64f-bbc8-46d3-a704-33aff938dc1e")
+		)
+		(pin "15"
+			(uuid "57e5b547-a6a3-4ecf-b3ad-60ae11650b2a")
+		)
+		(pin "13"
+			(uuid "477a88a8-6393-4808-ac93-67c738f34d82")
+		)
+		(instances
+			(project "powerboard"
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/3d4e6ece-76f9-4a45-85d3-79a14d791d6e/1e69dd70-c193-4b0f-ad2d-2b2e5776a9d4"
+					(reference "U27")
+					(unit 1)
+				)
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/3d4e6ece-76f9-4a45-85d3-79a14d791d6e/eac1feed-7d23-4836-8575-b97d799b2734"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "integrated-circuit:TPS1H100BQPWPRQ1")
+		(at 281.94 336.55 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cf3c1ca-9f3d-45d4-824f-592e03b7cfd5")
+		(property "Reference" "U12"
+			(at 281.94 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS1H100BQPWPRQ1"
+			(at 281.94 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "semiconductor:HTSSOP-14-1EP_P0.65_4.4x5x1.2"
+			(at 311.15 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps1h100-q1.pdf"
+			(at 311.15 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC Power Switch High-Side 4A 3.5V~40V -40°C 125°C SMD HTSSOP-14"
+			(at 311.15 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description pt-br" "CI Chave de Energia High-Side 4A 3.5V~40V -40°C 125°C SMD HTSSOP-14"
+			(at 311.15 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 311.15 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TPS1H100BQPWPRQ1"
+			(at 311.15 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SAP Code" "CISG-0003"
+			(at 311.15 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PLM Code" "PRPTRAC00000657"
+			(at 311.15 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliance" "Yes"
+			(at 311.15 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "NCM" "8542.39.39"
+			(at 311.15 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Lead Time (W)" "LT"
+			(at 311.15 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Maturity Level" "P/V/F"
+			(at 311.15 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Criticality" "C/S/G"
+			(at 311.15 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Created by" "Kimon Pediatidakis 11/03/2024"
+			(at 311.15 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Reviewed by" "Marcelo Felix 11/04/2024"
+			(at 311.15 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4ba4bec7-1665-4411-9160-4261b579e59a")
+		)
+		(pin "8"
+			(uuid "973a0cb3-68b1-4cf8-9b24-49c888339c5e")
+		)
+		(pin "12"
+			(uuid "d70a8f0b-c433-461b-87b8-a13465da196a")
+		)
+		(pin "6"
+			(uuid "7855d3f3-8086-4068-8b7c-f150d7d63599")
+		)
+		(pin "10"
+			(uuid "55d71887-2ae3-4271-bc78-bf42eb9b2062")
+		)
+		(pin "11"
+			(uuid "a6703072-1470-4e49-8ef3-433a70d3e5b8")
+		)
+		(pin "5"
+			(uuid "4efea304-2d5e-4fe7-9ac7-5dec76b5ab5a")
+		)
+		(pin "14"
+			(uuid "6675a36c-dbd4-4033-99fe-5abaa1491c85")
+		)
+		(pin "9"
+			(uuid "e7fa87b8-9fcf-461b-a418-4f5d7108eef6")
+		)
+		(pin "2"
+			(uuid "ec8a15eb-b590-499e-b4ea-98fab192e0a2")
+		)
+		(pin "7"
+			(uuid "924d9ab6-bf71-4e63-8a95-40c9b1667bcf")
+		)
+		(pin "4"
+			(uuid "bbfb4813-e000-4c57-8b47-8ab1d0a3df8c")
+		)
+		(pin "1"
+			(uuid "178e5ee1-0464-4a13-a81a-efec563a6c71")
+		)
+		(pin "15"
+			(uuid "1d795f7d-48db-4612-947c-6f29f9b348d1")
+		)
+		(pin "13"
+			(uuid "54c1b974-e64e-4861-9187-b59e705c4d58")
+		)
+		(instances
+			(project "powerboard"
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/3d4e6ece-76f9-4a45-85d3-79a14d791d6e/1e69dd70-c193-4b0f-ad2d-2b2e5776a9d4"
+					(reference "U29")
+					(unit 1)
+				)
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/3d4e6ece-76f9-4a45-85d3-79a14d791d6e/eac1feed-7d23-4836-8575-b97d799b2734"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "integrated-circuit:TPL0102-100PWR")
+		(at 203.2 308.61 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69ef7d8c-acf4-42a7-a949-73a05cb1164a")
+		(property "Reference" "U8"
+			(at 203.2 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPL0102-100PWR"
+			(at 203.2 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "semiconductor:TSSOP-14_P0.65_4.4x5x1.2"
+			(at 228.6 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpl0102-100.pdf?ts=1729112466273&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPL0102-100%253FkeyMatch%253DTPL0102-100PWR%2526tisearch%253Duniversal_search%2526usecase%253DOPN"
+			(at 228.6 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital Potentiometer 2 Channels 100k 256 steps I2C -40°C 85°C SMD TSSOP-14"
+			(at 228.6 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description pt-br" "Potenciômetro Digital 2 Canais 100k 256 passos I2C -40°C 85°C SMD TSSOP-14"
+			(at 228.6 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 228.6 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TPL0102-100PWR"
+			(at 228.6 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SAP Code" "CISC-XXXX"
+			(at 228.6 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PLM Code" "TBD"
+			(at 228.6 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliance" "Yes"
+			(at 228.6 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "NCM" "8542.39.39"
+			(at 228.6 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Lead Time (W)" "LT"
+			(at 228.6 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Maturity Level" "P/V/F"
+			(at 228.6 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Criticality" "C/S/G"
+			(at 228.6 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Created by" "Marcelo Felix 16/10/2024"
+			(at 228.6 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Reviewed by" "Iago Melo 05/11/2024"
+			(at 228.6 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0fac2b64-cccd-41dd-8da0-311146e10e61")
+		)
+		(pin "7"
+			(uuid "ea782c23-6ffd-47a2-bdf2-392494c1f855")
+		)
+		(pin "9"
+			(uuid "4ec7118e-8335-49c4-9ed0-c26490581ee6")
+		)
+		(pin "1"
+			(uuid "f3bded25-07af-45f1-a6bc-1d9fa2aa7fad")
+		)
+		(pin "12"
+			(uuid "00288b16-5f26-406e-a5d1-5d9e776a8e20")
+		)
+		(pin "10"
+			(uuid "7ddd927e-15e1-45b5-ac00-a76a93c63d04")
+		)
+		(pin "5"
+			(uuid "386a0998-1b2a-4239-a9b8-ccbc8827c623")
+		)
+		(pin "11"
+			(uuid "5fdd67aa-7574-4d2e-acab-02356bf8433e")
+		)
+		(pin "13"
+			(uuid "a40cc3c3-12b1-467f-aaa9-fcf513ef733f")
+		)
+		(pin "4"
+			(uuid "f9c0e7d0-df59-4199-a6fe-32ca93ac1f88")
+		)
+		(pin "6"
+			(uuid "811fb363-cd19-4fec-98b3-a361e3efeb43")
+		)
+		(pin "8"
+			(uuid "153dafae-3bc4-4447-8e73-64e86536ea79")
+		)
+		(pin "3"
+			(uuid "9414fee1-8b28-4e76-b7ad-3884cee3b0af")
+		)
+		(pin "14"
+			(uuid "e9720202-15b6-4ce0-895c-c273537abe9d")
+		)
+		(instances
+			(project "powerboard"
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/3d4e6ece-76f9-4a45-85d3-79a14d791d6e/1e69dd70-c193-4b0f-ad2d-2b2e5776a9d4"
+					(reference "U25")
+					(unit 1)
+				)
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/3d4e6ece-76f9-4a45-85d3-79a14d791d6e/eac1feed-7d23-4836-8575-b97d799b2734"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "review:INA4235AIYBJR")
+		(at 420.37 224.79 0)
+		(unit 2)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "beb1ab05-ab06-49e6-b584-ac9a86239b05")
+		(property "Reference" "U2"
+			(at 420.37 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA4235AIYBJR"
+			(at 420.37 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "review:DSBGA-16_P0.4_1.508X1.508mm"
+			(at 463.55 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina4235.pdf?ts=1778744255228"
+			(at 477.774 210.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC Quad Channel 16-bit Digital Current Monitor I2C -55°C 150C° SMD DSBGA"
+			(at 482.854 212.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description pt-br" "CI Monitor de Corrente Quatro Canais 16-bits I2C -55°C 150C° SMD DSBGA"
+			(at 481.838 214.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 453.136 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partnumber" "INA4235AIYBJR"
+			(at 451.358 219.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SAP Code" "CISA-XXXX"
+			(at 444.246 221.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PLM Code" "TBD"
+			(at 444.5 231.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "RoHS Complience" "Yes"
+			(at 446.024 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NCM" "8542.39.19"
+			(at 449.834 225.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead Time (W)" "LT"
+			(at 444.754 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Maturity Level" "P/V/F"
+			(at 444.5 227.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Criticality" "C/S/G"
+			(at 444.5 229.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Created by" "Mateus Lourenço 14/05/2026"
+			(at 459.486 235.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reviewed by" ""
+			(at 420.37 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C2"
+			(uuid "ef9b4da0-af95-4324-8a41-cb6665b0efd2")
+		)
+		(pin "C4"
+			(uuid "258c77b8-787d-475e-bfb0-07d0fdb73368")
+		)
+		(pin "A4"
+			(uuid "0f751dd8-104a-42ca-b5a2-975797e72edb")
+		)
+		(pin "A3"
+			(uuid "53dc9546-9641-4c7b-a841-2d7cec3629ed")
+		)
+		(pin "A1"
+			(uuid "93a34584-194b-4752-8fdf-13871e0c5a06")
+		)
+		(pin "B3"
+			(uuid "82c1eb70-ab6c-4c8a-ad82-079f44149ea3")
+		)
+		(pin "A2"
+			(uuid "76e45f0c-ee76-4930-b791-38b3fbf0ca1e")
+		)
+		(pin "B1"
+			(uuid "cec269a4-94ef-4017-abeb-b80e9887cd32")
+		)
+		(pin "D1"
+			(uuid "0fd275d8-eeeb-4446-9d6e-53bd9710c07f")
+		)
+		(pin "D4"
+			(uuid "d74fb2f4-1717-4a5d-be5a-428897c4e4ae")
+		)
+		(pin "D2"
+			(uuid "533e4da0-f0d2-473a-ac79-e3d27bdfeab7")
+		)
+		(pin "D3"
+			(uuid "a54d055d-48d1-4ac1-b354-46d431968033")
+		)
+		(pin "C1"
+			(uuid "e368e35b-96b7-42a4-9f47-07c92a4e31a5")
+		)
+		(pin "B4"
+			(uuid "9523c541-49a0-4f32-9d3b-93c1af86c0e7")
+		)
+		(pin "B2"
+			(uuid "f3a1b241-6ffc-41f1-b476-06aad055329f")
+		)
+		(pin "C3"
+			(uuid "f873451d-581c-4164-95cc-27ee4d3742fa")
+		)
+		(instances
+			(project ""
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/3d4e6ece-76f9-4a45-85d3-79a14d791d6e/1e69dd70-c193-4b0f-ad2d-2b2e5776a9d4"
+					(reference "U6")
+					(unit 2)
+				)
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/3d4e6ece-76f9-4a45-85d3-79a14d791d6e/eac1feed-7d23-4836-8575-b97d799b2734"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "review:INA4235AIYBJR")
+		(at 420.37 187.96 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c703811b-7f37-4567-9b6c-f6b2e4b2c984")
+		(property "Reference" "U2"
+			(at 420.37 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA4235AIYBJR"
+			(at 420.37 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "review:DSBGA-16_P0.4_1.508X1.508mm"
+			(at 463.55 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina4235.pdf?ts=1778744255228"
+			(at 477.774 173.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC Quad Channel 16-bit Digital Current Monitor I2C -55°C 150C° SMD DSBGA"
+			(at 482.854 176.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description pt-br" "CI Monitor de Corrente Quatro Canais 16-bits I2C -55°C 150C° SMD DSBGA"
+			(at 481.838 178.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 453.136 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partnumber" "INA4235AIYBJR"
+			(at 451.358 182.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SAP Code" "CISA-XXXX"
+			(at 444.246 184.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PLM Code" "TBD"
+			(at 444.5 194.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "RoHS Complience" "Yes"
+			(at 446.024 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NCM" "8542.39.19"
+			(at 449.834 188.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Lead Time (W)" "LT"
+			(at 444.754 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Maturity Level" "P/V/F"
+			(at 444.5 190.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Criticality" "C/S/G"
+			(at 444.5 192.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Created by" "Mateus Lourenço 14/05/2026"
+			(at 459.486 198.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reviewed by" ""
+			(at 420.37 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C2"
+			(uuid "ef9b4da0-af95-4324-8a41-cb6665b0efd2")
+		)
+		(pin "C4"
+			(uuid "258c77b8-787d-475e-bfb0-07d0fdb73368")
+		)
+		(pin "A4"
+			(uuid "0f751dd8-104a-42ca-b5a2-975797e72edb")
+		)
+		(pin "A3"
+			(uuid "53dc9546-9641-4c7b-a841-2d7cec3629ed")
+		)
+		(pin "A1"
+			(uuid "93a34584-194b-4752-8fdf-13871e0c5a06")
+		)
+		(pin "B3"
+			(uuid "82c1eb70-ab6c-4c8a-ad82-079f44149ea3")
+		)
+		(pin "A2"
+			(uuid "76e45f0c-ee76-4930-b791-38b3fbf0ca1e")
+		)
+		(pin "B1"
+			(uuid "cec269a4-94ef-4017-abeb-b80e9887cd32")
+		)
+		(pin "D1"
+			(uuid "0fd275d8-eeeb-4446-9d6e-53bd9710c07f")
+		)
+		(pin "D4"
+			(uuid "d74fb2f4-1717-4a5d-be5a-428897c4e4ae")
+		)
+		(pin "D2"
+			(uuid "533e4da0-f0d2-473a-ac79-e3d27bdfeab7")
+		)
+		(pin "D3"
+			(uuid "a54d055d-48d1-4ac1-b354-46d431968033")
+		)
+		(pin "C1"
+			(uuid "e368e35b-96b7-42a4-9f47-07c92a4e31a5")
+		)
+		(pin "B4"
+			(uuid "9523c541-49a0-4f32-9d3b-93c1af86c0e7")
+		)
+		(pin "B2"
+			(uuid "f3a1b241-6ffc-41f1-b476-06aad055329f")
+		)
+		(pin "C3"
+			(uuid "f873451d-581c-4164-95cc-27ee4d3742fa")
+		)
+		(instances
+			(project ""
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/3d4e6ece-76f9-4a45-85d3-79a14d791d6e/1e69dd70-c193-4b0f-ad2d-2b2e5776a9d4"
+					(reference "U6")
+					(unit 1)
+				)
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/3d4e6ece-76f9-4a45-85d3-79a14d791d6e/eac1feed-7d23-4836-8575-b97d799b2734"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "integrated-circuit:TPS1H100BQPWPRQ1")
+		(at 281.94 64.77 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dda05ff3-41d6-453b-9abf-57fe2fb80b79")
+		(property "Reference" "U11"
+			(at 281.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS1H100BQPWPRQ1"
+			(at 281.94 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "semiconductor:HTSSOP-14-1EP_P0.65_4.4x5x1.2"
+			(at 311.15 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps1h100-q1.pdf"
+			(at 311.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC Power Switch High-Side 4A 3.5V~40V -40°C 125°C SMD HTSSOP-14"
+			(at 311.15 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description pt-br" "CI Chave de Energia High-Side 4A 3.5V~40V -40°C 125°C SMD HTSSOP-14"
+			(at 311.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 311.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TPS1H100BQPWPRQ1"
+			(at 311.15 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SAP Code" "CISG-0003"
+			(at 311.15 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PLM Code" "PRPTRAC00000657"
+			(at 311.15 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliance" "Yes"
+			(at 311.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "NCM" "8542.39.39"
+			(at 311.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Lead Time (W)" "LT"
+			(at 311.15 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Maturity Level" "P/V/F"
+			(at 311.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Criticality" "C/S/G"
+			(at 311.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Created by" "Kimon Pediatidakis 11/03/2024"
+			(at 311.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Reviewed by" "Marcelo Felix 11/04/2024"
+			(at 311.15 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "994708b7-e678-4b24-aba0-410405da5d17")
+		)
+		(pin "8"
+			(uuid "27614281-7d8a-401b-808f-b8a225c6092c")
+		)
+		(pin "12"
+			(uuid "7dc16982-fd4f-416f-8589-f57986368f96")
+		)
+		(pin "6"
+			(uuid "3814d3d2-794a-44dd-8181-bc2ca9ddda9d")
+		)
+		(pin "10"
+			(uuid "e4a84e6c-d5a1-4db6-a7e5-dddacc97dd77")
+		)
+		(pin "11"
+			(uuid "0b12784f-c6f1-4d0c-a7ea-676203e67c0b")
+		)
+		(pin "5"
+			(uuid "f2a31070-837d-4165-9a11-e9be2ccec0b8")
+		)
+		(pin "14"
+			(uuid "c73c4c14-5832-4341-82d0-f461cd36047f")
+		)
+		(pin "9"
+			(uuid "c5de8ef6-a724-42c3-afd8-f200d97d559e")
+		)
+		(pin "2"
+			(uuid "4767272c-e678-4521-9d10-22f553b58c4f")
+		)
+		(pin "7"
+			(uuid "8fe435c3-818f-4907-9966-808297e06543")
+		)
+		(pin "4"
+			(uuid "4e714e9c-a762-41a0-99e4-b7da612b6f5e")
+		)
+		(pin "1"
+			(uuid "3eef9919-1e89-4324-b9b8-192a4f48c020")
+		)
+		(pin "15"
+			(uuid "4731d70d-f107-4104-afb2-22f20fd33afb")
+		)
+		(pin "13"
+			(uuid "7a3a4b45-9970-4a55-b9de-1758f5049c53")
+		)
+		(instances
+			(project "powerboard"
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/3d4e6ece-76f9-4a45-85d3-79a14d791d6e/1e69dd70-c193-4b0f-ad2d-2b2e5776a9d4"
+					(reference "U26")
+					(unit 1)
+				)
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/3d4e6ece-76f9-4a45-85d3-79a14d791d6e/eac1feed-7d23-4836-8575-b97d799b2734"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "integrated-circuit:TPS1H100BQPWPRQ1")
+		(at 281.94 261.62 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0e22cb6-ad2d-438d-9cc9-7b65233dbd94")
+		(property "Reference" "U10"
+			(at 281.94 227.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS1H100BQPWPRQ1"
+			(at 281.94 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "semiconductor:HTSSOP-14-1EP_P0.65_4.4x5x1.2"
+			(at 311.15 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps1h100-q1.pdf"
+			(at 311.15 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC Power Switch High-Side 4A 3.5V~40V -40°C 125°C SMD HTSSOP-14"
+			(at 311.15 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description pt-br" "CI Chave de Energia High-Side 4A 3.5V~40V -40°C 125°C SMD HTSSOP-14"
+			(at 311.15 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 311.15 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TPS1H100BQPWPRQ1"
+			(at 311.15 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SAP Code" "CISG-0003"
+			(at 311.15 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PLM Code" "PRPTRAC00000657"
+			(at 311.15 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliance" "Yes"
+			(at 311.15 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "NCM" "8542.39.39"
+			(at 311.15 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Lead Time (W)" "LT"
+			(at 311.15 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Maturity Level" "P/V/F"
+			(at 311.15 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Criticality" "C/S/G"
+			(at 311.15 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Created by" "Kimon Pediatidakis 11/03/2024"
+			(at 311.15 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Reviewed by" "Marcelo Felix 11/04/2024"
+			(at 311.15 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "35d2981f-9331-4266-b9dd-b813a11a58b3")
+		)
+		(pin "8"
+			(uuid "7af86f4b-db63-4d19-b88b-8490e08bd725")
+		)
+		(pin "12"
+			(uuid "5088d7c9-56b7-485b-8c3b-b7d768f5b525")
+		)
+		(pin "6"
+			(uuid "a9626012-e944-4ab2-98fd-a6ada0449b02")
+		)
+		(pin "10"
+			(uuid "0e44e61b-9977-4d15-bf81-2c28c8b8a909")
+		)
+		(pin "11"
+			(uuid "a2af52a1-c958-4603-bccf-7e94ec9d481e")
+		)
+		(pin "5"
+			(uuid "3ef652e8-b0a8-40db-aed8-307c99152447")
+		)
+		(pin "14"
+			(uuid "e3514a4b-3003-4e13-89f8-e87de41a736a")
+		)
+		(pin "9"
+			(uuid "29241ced-b2f0-4266-9dab-766808c28a5d")
+		)
+		(pin "2"
+			(uuid "e74fdc7b-9437-4f01-a6a8-d62873a065e5")
+		)
+		(pin "7"
+			(uuid "6c925c50-07e4-4bd2-8f6c-80fc911f6946")
+		)
+		(pin "4"
+			(uuid "e9a20c29-0143-4572-9de1-0f3c150d90a3")
+		)
+		(pin "1"
+			(uuid "717c0055-31c6-4ae2-ad06-f3fd5ec7b721")
+		)
+		(pin "15"
+			(uuid "06fa1e46-eefd-4fc2-b424-e05a54339143")
+		)
+		(pin "13"
+			(uuid "901557e1-4942-4b1c-adb2-21756d7e8ea0")
+		)
+		(instances
+			(project "powerboard"
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/3d4e6ece-76f9-4a45-85d3-79a14d791d6e/1e69dd70-c193-4b0f-ad2d-2b2e5776a9d4"
+					(reference "U28")
+					(unit 1)
+				)
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/3d4e6ece-76f9-4a45-85d3-79a14d791d6e/eac1feed-7d23-4836-8575-b97d799b2734"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 455.93 275.59)
+		(size 40.64 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0e7ef465-c099-4a58-b2c6-ce7feb8f6c00")
+		(property "Sheetname" "Current shunt2"
+			(at 455.93 274.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "current_sensing.kicad_sch"
+			(at 461.264 291.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INA+" input
+			(at 455.93 279.4 180)
+			(uuid "8d2e1538-bd34-413e-9906-990a7b314179")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INA-" input
+			(at 455.93 281.94 180)
+			(uuid "95a2ee35-da21-4133-83f1-d736dfcca75a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT_CURRENT" input
+			(at 455.93 287.02 180)
+			(uuid "cc30b43f-0327-4894-ac0e-5cf429132a6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTPUT_CURRENT" output
+			(at 496.57 287.02 0)
+			(uuid "db21e07b-2f86-402b-98b2-4d1d45b4eab4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCALE" output
+			(at 496.57 278.13 0)
+			(uuid "fa9ae292-3b4d-4bff-9058-ab9027495125")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "powerboard"
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/3d4e6ece-76f9-4a45-85d3-79a14d791d6e/eac1feed-7d23-4836-8575-b97d799b2734"
+					(page "12")
+				)
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/3d4e6ece-76f9-4a45-85d3-79a14d791d6e/1e69dd70-c193-4b0f-ad2d-2b2e5776a9d4"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 455.93 114.3)
+		(size 40.64 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6ce3f7e6-7d1c-4dd8-9927-97edf144232e")
+		(property "Sheetname" "Current shunt1"
+			(at 455.93 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "current_sensing.kicad_sch"
+			(at 461.264 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INA+" input
+			(at 455.93 118.11 180)
+			(uuid "6788de90-753d-4f6f-ba0f-57b9b7ff06dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INA-" input
+			(at 455.93 120.65 180)
+			(uuid "b43a1179-2e4d-4625-aaa8-59cb118b16d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT_CURRENT" input
+			(at 455.93 125.73 180)
+			(uuid "8dfcbce0-63eb-49b0-874e-e2f326a02f6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTPUT_CURRENT" output
+			(at 496.57 125.73 0)
+			(uuid "cfbe555d-2bd2-46a6-ab22-83c406f04cd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCALE" output
+			(at 496.57 116.84 0)
+			(uuid "0ad1ee59-f4bd-4f1a-9a72-8c2af2936708")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "powerboard"
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/3d4e6ece-76f9-4a45-85d3-79a14d791d6e/eac1feed-7d23-4836-8575-b97d799b2734"
+					(page "11")
+				)
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/3d4e6ece-76f9-4a45-85d3-79a14d791d6e/1e69dd70-c193-4b0f-ad2d-2b2e5776a9d4"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 455.93 302.26)
+		(size 40.64 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b74dbb27-b0af-48f9-ba81-f3a4f8ae6821")
+		(property "Sheetname" "Current shunt3"
+			(at 455.93 301.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "current_sensing.kicad_sch"
+			(at 461.264 318.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INA+" input
+			(at 455.93 306.07 180)
+			(uuid "0f12be6b-f635-4191-b63e-d85105bc8254")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INA-" input
+			(at 455.93 308.61 180)
+			(uuid "84617176-dbf1-427d-9032-7ff270471b5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT_CURRENT" input
+			(at 455.93 313.69 180)
+			(uuid "c86cb089-31aa-4e12-9e50-39de61d33ba1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTPUT_CURRENT" output
+			(at 496.57 313.69 0)
+			(uuid "40db4e60-313a-4885-91cb-b83ff56f86cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCALE" output
+			(at 496.57 304.8 0)
+			(uuid "b71878f7-d41b-4886-896d-6ac9f0d1b499")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "powerboard"
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/3d4e6ece-76f9-4a45-85d3-79a14d791d6e/eac1feed-7d23-4836-8575-b97d799b2734"
+					(page "13")
+				)
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/3d4e6ece-76f9-4a45-85d3-79a14d791d6e/1e69dd70-c193-4b0f-ad2d-2b2e5776a9d4"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 455.93 87.63)
+		(size 40.64 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b996d587-79f6-4614-b271-b5d8f3e7c646")
+		(property "Sheetname" "Current shunt"
+			(at 455.93 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "current_sensing.kicad_sch"
+			(at 461.264 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INA+" input
+			(at 455.93 90.17 180)
+			(uuid "f413de3f-6ae1-4e03-a915-87d93d2ec01f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INA-" input
+			(at 455.93 92.71 180)
+			(uuid "55184acf-1931-4ba5-bdc0-ed5a2d45b079")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT_CURRENT" input
+			(at 455.93 97.79 180)
+			(uuid "60df0512-995e-4569-bc53-5559629baa82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTPUT_CURRENT" output
+			(at 496.57 97.79 0)
+			(uuid "82f83173-c1c7-4f18-b924-d5d656a9e2c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCALE" output
+			(at 496.57 88.9 0)
+			(uuid "48945798-a2a1-4dae-a930-6363b0e40d32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "powerboard"
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/3d4e6ece-76f9-4a45-85d3-79a14d791d6e/eac1feed-7d23-4836-8575-b97d799b2734"
+					(page "10")
+				)
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/3d4e6ece-76f9-4a45-85d3-79a14d791d6e/1e69dd70-c193-4b0f-ad2d-2b2e5776a9d4"
+					(page "20")
+				)
+			)
+		)
+	)
+)
