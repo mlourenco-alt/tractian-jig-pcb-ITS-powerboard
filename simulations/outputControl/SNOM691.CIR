@@ -1,0 +1,57 @@
+*$
+* LM74700-Q1
+*****************************************************************************
+* (C) Copyright 2020 Texas Instruments Incorporated. All rights reserved.                                            
+*****************************************************************************
+** This model is designed as an aid for customers of Texas Instruments.
+** TI and its licensors and suppliers make no warranties, either expressed
+** or implied, with respect to this model, including the warranties of 
+** merchantability or fitness for a particular purpose.  The model is
+** provided solely on an "as is" basis.  The entire risk as to its quality
+** and performance is with the customer
+*****************************************************************************
+*
+* This model is subject to change without notice. Texas Instruments
+* Incorporated is not responsible for updating this model.
+*
+*****************************************************************************
+*
+** Released by: Texas Instruments Inc.
+* Part: LM74700-Q1
+* Date: 09JUL2020
+* Model Type: TRANSIENT
+* Simulator: TINA-TI
+* Simulator Version: 9.3.200.277 SF-TI
+* EVM Order Number: NA 
+* EVM Users Guide: NA
+* Datasheet: SNOSD17F- OCTOBER 2017–REVISED DECEMBER 2019
+*
+* Model Version: Final 1.00
+*
+*****************************************************************************
+*
+* Updates:
+*
+* Final 1.00
+* Release to Web.
+*
+*****************************************************************************
+*
+* Model Usage Notes:
+* A. Features have been modelled
+*    1. Operation mode behavior- Full conduction, regulated conduction, 
+*       reverse current protection and shut down 
+*    2. VANODE POR
+*    3. Reverse Polarity Protection
+*    4. Charge pump behaviour
+*    5. EN behaviour
+*
+* B. Features have not been modelled 
+*    1. Temperature dependent characteristics
+*
+*****************************************************************************
+.SUBCKT LM74700-Q1_TRANS ANODE CATHODE EN GATE GND VCAP  
+
+* Encrypted macro. Content can't be viewed. 
+
+.ENDS

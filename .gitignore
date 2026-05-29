@@ -28,3 +28,16 @@ fp-info-cache
 *.ses
 
 # Exported BOM files
+
+# LTspice Simulation Data (Binary & Large)
+*.raw
+*.op.raw
+*.fft
+
+# Logs and Intermediate Files
+*.log
+*.net
+
+# Backup and Temporary Files
+*.bak
+*.tmp
