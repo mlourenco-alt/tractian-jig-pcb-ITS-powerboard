@@ -728,14 +728,14 @@
     ],
     [
       "137bff5d-48a2-41f9-87b6-bfef4782e386",
-      "Isolated dual rail fixed PS stage"
+      "Isolated dual rail PS stage"
     ],
     [
-      "3d4e6ece-76f9-4a45-85d3-79a14d791d6e",
-      "Isolated dual rail controlled PS stage"
+      "ec8004d2-afaf-42c4-81a4-160e6c3b6ac5",
+      "Current shunt"
     ],
     [
-      "eac1feed-7d23-4836-8575-b97d799b2734",
+      "edc20464-f4b8-4832-b891-8da6c69fab31",
       "Isolated dual rail PS controlled submodule"
     ],
     [
@@ -747,16 +747,16 @@
       "Current shunt"
     ],
     [
+      "b74dbb27-b0af-48f9-ba81-f3a4f8ae6821",
+      "Current shunt3"
+    ],
+    [
       "6ce3f7e6-7d1c-4dd8-9927-97edf144232e",
       "Current shunt1"
     ],
     [
       "0e7ef465-c099-4a58-b2c6-ce7feb8f6c00",
       "Current shunt2"
-    ],
-    [
-      "b74dbb27-b0af-48f9-ba81-f3a4f8ae6821",
-      "Current shunt3"
     ],
     [
       "516db650-12b9-4621-ac8e-ce7f6f27f1ae",
@@ -779,7 +779,7 @@
       "Current shunt5"
     ],
     [
-      "1e69dd70-c193-4b0f-ad2d-2b2e5776a9d4",
+      "9f974082-3c3c-49da-960e-fb6aae9154a1",
       "Isolated dual rail PS controlled submodule1"
     ],
     [
@@ -867,6 +867,10 @@
       "Current shunt1"
     ],
     [
+      "ec8004d2-afaf-42c4-81a4-160e6c3b6ac5",
+      "Current shunt"
+    ],
+    [
       "c49d698a-6df9-445a-ba60-79c8c0f7617e",
       "Boost stage"
     ],
@@ -875,8 +879,8 @@
       "Boost submodule"
     ],
     [
-      "54250810-9cec-42d2-93e3-2b9c1f1f727b",
-      "Boost submodule1"
+      "ee5e1553-d5ec-47d0-948b-63d7010bf4a6",
+      "Boost submodule 2"
     ]
   ],
   "text_variables": {}
