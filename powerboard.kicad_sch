@@ -9146,6 +9146,17 @@
 		)
 		(uuid "780f3b26-b203-4484-9b2a-5424a8da2bc7")
 	)
+	(text "Test using the FT4233 GPIOs to control and read states of the INA scales.\nBut use it as a redundant feature, still maintain the IO/Expanders as main\ndrivers"
+		(exclude_from_sim no)
+		(at 66.802 372.618 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "b5bf7d2d-37cc-4aec-bca3-6587c28db0af")
+	)
 	(text_box "Notes for the future-Self:\n- Avoid using (global labels) for power. Define them globally as power.\n- Separates the power from active repetitive components at the same sheet.\n- "
 		(exclude_from_sim no)
 		(at 37.084 -69.088 0)

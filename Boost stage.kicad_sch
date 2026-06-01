@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "b964356c-7c66-41fe-9de1-d580e29166ea")
+	(uuid "1e760057-3c6c-4658-8426-1bbc7e4d9016")
 	(paper "A2")
 	(lib_symbols
 		(symbol "capacitor:10nF-0402_01"
