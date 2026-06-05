@@ -10456,7 +10456,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 309.88) (xy 83.82 313.69)
+			(xy 83.82 309.88) (xy 83.82 312.42)
 		)
 		(stroke
 			(width 0)
@@ -11043,6 +11043,16 @@
 			(type default)
 		)
 		(uuid "ce5117c5-afa7-4682-b7d3-70a250d1a37f")
+	)
+	(wire
+		(pts
+			(xy 83.82 320.04) (xy 83.82 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfa0ae4e-225c-4754-9c9f-51a72bf03c80")
 	)
 	(wire
 		(pts
@@ -28808,7 +28818,7 @@
 	)
 	(symbol
 		(lib_id "resistor:215k-0402_01")
-		(at 83.82 317.5 90)
+		(at 83.82 316.23 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -28817,7 +28827,7 @@
 		(fields_autoplaced yes)
 		(uuid "30c79857-5c22-4254-bad7-c87f4e80bb62")
 		(property "Reference" "R225"
-			(at 86.36 316.2299 90)
+			(at 86.36 314.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28826,7 +28836,7 @@
 			)
 		)
 		(property "Value" "215k-0402_01"
-			(at 68.58 304.8 0)
+			(at 68.58 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28836,7 +28846,7 @@
 			)
 		)
 		(property "Footprint" "passive:Resistor_0402"
-			(at 71.12 304.8 0)
+			(at 71.12 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28846,7 +28856,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0402FR-07215KL?lang=en"
-			(at 73.66 304.8 0)
+			(at 73.66 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28856,7 +28866,7 @@
 			)
 		)
 		(property "Description" "Resistor 215k 1% 62.5mW -55°C 155°C SMD 0402"
-			(at 76.2 304.8 0)
+			(at 76.2 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28866,7 +28876,7 @@
 			)
 		)
 		(property "Description pt-br" "Resistor 215k 1% 62.5mW -55°C 155°C SMD 0402"
-			(at 78.74 304.8 0)
+			(at 78.74 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28876,7 +28886,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 81.28 304.8 0)
+			(at 81.28 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28886,7 +28896,7 @@
 			)
 		)
 		(property "Part Number" "RC0402FR-07215KL"
-			(at 83.82 304.8 0)
+			(at 83.82 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28896,7 +28906,7 @@
 			)
 		)
 		(property "SAP Code" "RESG-0136"
-			(at 86.36 304.8 0)
+			(at 86.36 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28906,7 +28916,7 @@
 			)
 		)
 		(property "PLM Code" "PRPTRAC00002012"
-			(at 88.9 304.8 0)
+			(at 88.9 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28916,7 +28926,7 @@
 			)
 		)
 		(property "RoHS Compliance" "Yes"
-			(at 91.44 304.8 0)
+			(at 91.44 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28926,7 +28936,7 @@
 			)
 		)
 		(property "NCM" "8533.21.20"
-			(at 93.98 304.8 0)
+			(at 93.98 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28936,7 +28946,7 @@
 			)
 		)
 		(property "Lead Time (W)" "LT"
-			(at 96.52 304.8 0)
+			(at 96.52 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28946,7 +28956,7 @@
 			)
 		)
 		(property "Maturity Level" "P/V/F"
-			(at 99.06 304.8 0)
+			(at 99.06 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28956,7 +28966,7 @@
 			)
 		)
 		(property "Criticality" "C/S/G"
-			(at 101.6 304.8 0)
+			(at 101.6 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28966,7 +28976,7 @@
 			)
 		)
 		(property "Created by" "Rafaella Monti 06/03/2026"
-			(at 104.14 304.8 0)
+			(at 104.14 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28976,7 +28986,7 @@
 			)
 		)
 		(property "Reviewed by" "Willian Löschner 13/03/2026"
-			(at 106.68 304.8 0)
+			(at 106.68 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28986,7 +28996,7 @@
 			)
 		)
 		(property "Friendly Name" "215k"
-			(at 86.36 318.7699 90)
+			(at 86.36 317.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
