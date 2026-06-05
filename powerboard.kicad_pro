@@ -763,12 +763,12 @@
       "Current shunt1"
     ],
     [
-      "b4e12382-7be9-4924-8c42-894e96a53f10",
-      "Current shunt2"
+      "dea657e5-81fd-406f-8fc5-8ab717a840d3",
+      "Isolated dual rail PS controlled submodule1"
     ],
     [
-      "1d024614-d01c-44f7-b117-54924d6651c3",
-      "Current shunt3"
+      "b996d587-79f6-4614-b271-b5d8f3e7c646",
+      "Current shunt"
     ],
     [
       "0f760b14-a724-4c76-8d65-3e8bca8249b7",
@@ -779,24 +779,16 @@
       "Current shunt5"
     ],
     [
-      "9f974082-3c3c-49da-960e-fb6aae9154a1",
-      "Isolated dual rail PS controlled submodule1"
-    ],
-    [
-      "b996d587-79f6-4614-b271-b5d8f3e7c646",
-      "Current shunt"
-    ],
-    [
       "b74dbb27-b0af-48f9-ba81-f3a4f8ae6821",
       "Current shunt3"
     ],
     [
-      "6ce3f7e6-7d1c-4dd8-9927-97edf144232e",
-      "Current shunt1"
-    ],
-    [
       "0e7ef465-c099-4a58-b2c6-ce7feb8f6c00",
       "Current shunt2"
+    ],
+    [
+      "6ce3f7e6-7d1c-4dd8-9927-97edf144232e",
+      "Current shunt1"
     ],
     [
       "fe670c78-b736-4169-bf08-dfa13b31f700",
@@ -881,6 +873,14 @@
     [
       "ee5e1553-d5ec-47d0-948b-63d7010bf4a6",
       "Boost submodule 2"
+    ],
+    [
+      "022b0f5a-fa64-4428-9415-07cb7b0c1d8b",
+      "Current shunt6"
+    ],
+    [
+      "2d8edb4a-4686-4598-83a4-6967ba992a5a",
+      "Current shunt7"
     ]
   ],
   "text_variables": {}
