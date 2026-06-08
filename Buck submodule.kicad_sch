@@ -3924,7 +3924,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 17.78 12.7 180)
 					(length 5.08)
 					(name "VOUT"
@@ -3942,7 +3942,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 17.78 10.16 180)
 					(length 5.08)
 					(name "VOUT"
@@ -4375,7 +4375,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 19.05 17.78 180)
 					(length 5.08)
 					(name "VOUT1"
@@ -4393,7 +4393,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin passive line
 					(at 19.05 12.7 180)
 					(length 5.08)
 					(name "VOUT2"
@@ -13121,20 +13121,19 @@
 		)
 		(uuid "ffbfbda5-9d7b-4508-a617-d0e3946385b0")
 	)
-	(global_label "SDA"
+	(global_label "SCL_B"
 		(shape input)
-		(at 473.71 43.18 0)
+		(at 473.71 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(italic yes)
 			)
 			(justify left)
 		)
-		(uuid "343c19cd-8477-4cf3-8962-12c2600ccc1a")
+		(uuid "29531b7f-03e2-401a-aac9-ff4635e0ee74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 480.2633 43.18 0)
+			(at 482.4404 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13144,20 +13143,19 @@
 			)
 		)
 	)
-	(global_label "SCL"
+	(global_label "SDA_B"
 		(shape input)
-		(at 473.71 45.72 0)
+		(at 473.71 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(italic yes)
 			)
 			(justify left)
 		)
-		(uuid "3a944044-3e55-4d3d-85cd-b389ee4ffff8")
+		(uuid "c2202e44-b9d3-4d81-a33e-9d1968b08a4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 480.2028 45.72 0)
+			(at 482.5009 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)

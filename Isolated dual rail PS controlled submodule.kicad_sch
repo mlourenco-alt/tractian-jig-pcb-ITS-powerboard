@@ -2166,6 +2166,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power-label:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.27)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_1_1"
+				(pin power_out line
+					(at 0 0 180)
+					(length 0)
+					(hide yes)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "resistor:0R-0402_01"
 			(pin_numbers
 				(hide yes)
@@ -3606,486 +3707,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "resistor:499k-0402_01"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "499k-0402_01"
-				(at 12.7 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "passive:Resistor_0402"
-				(at 12.7 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-				(at 12.7 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor 499k 1% 62.5mW -55°C 155°C SMD 0402"
-				(at 12.7 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description pt-br" "Resistor 499k 1% 62.5mW -55°C 155°C SMD 0402"
-				(at 12.7 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Yageo"
-				(at 12.7 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "RC0402FR-07499KL"
-				(at 12.7 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "SAP Code" "RESG-0047"
-				(at 12.7 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "PLM Code" "PRPTRAC00001267"
-				(at 12.7 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "RoHS Compliance" "Yes"
-				(at 12.7 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "NCM" "8533.21.20"
-				(at 12.7 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Lead Time (W)" "LT"
-				(at 12.7 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Maturity Level" "P/V/F"
-				(at 12.7 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Criticality" "C/S/G"
-				(at 12.7 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Created by" "*"
-				(at 12.7 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Reviewed by" "*"
-				(at 12.7 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Friendly Name" "499k"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "499k-0402_01_0_1"
-				(rectangle
-					(start 2.54 -1.016)
-					(end -2.54 1.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "499k-0402_01_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "resistor:715k-0402_01"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "715k-0402_01"
-				(at 12.7 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "passive:Resistor_0402"
-				(at 12.7 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/1263"
-				(at 12.7 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor 715k 1% 100mW -55°C 155°C SMD 0402"
-				(at 12.7 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description pt-br" "Resistor 715k 1% 100mW -55°C 155°C SMD 0402"
-				(at 12.7 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Panasonic"
-				(at 12.7 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "ERJ-2RKF7153X"
-				(at 12.7 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "SAP Code" "RESG-XXXX"
-				(at 12.7 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "PLM Code" "TBD"
-				(at 12.7 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "RoHS Compliance" "Yes"
-				(at 12.7 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "NCM" "8533.21.20"
-				(at 12.7 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Lead Time (W)" "LT"
-				(at 12.7 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Maturity Level" "P/V/F"
-				(at 12.7 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Criticality" "C/S/G"
-				(at 12.7 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Created by" "Willian Loschner 16/10/2023"
-				(at 12.7 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Reviewed by" "Rafaella Monti 16/10/2023"
-				(at 12.7 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Friendly Name" "715k"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "715k-0402_01_0_1"
-				(rectangle
-					(start 2.54 -1.016)
-					(end -2.54 1.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "715k-0402_01_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "review:INA4235AIYBJR"
 			(exclude_from_sim yes)
 			(in_bom yes)
@@ -4868,479 +4489,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "semiconductor:RK7002BM"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at -5.08 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RK7002BM"
-				(at 7.62 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "semiconductor:SOT-23-3-INV_P0.95_2.92x1.3x1.12"
-				(at 7.62 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rk7002bmt116-e.pdf"
-				(at 7.62 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "MOSFET N-Channel Small Signal 60V 250mA -55°C 150°C SMD SOT23-3-INV"
-				(at 7.62 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description pt-br" "MOSFET Canal N Pequenos Sinais 60V 250mA -55°C 150°C SMD SOT23-3-INV"
-				(at 7.62 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Rohm Semiconductor"
-				(at 7.62 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "RK7002BMT116"
-				(at 7.62 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "SAP Code" "TRNF-XXXX"
-				(at 7.62 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "PLM Code" "TBD"
-				(at 7.62 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "RoHS Compliance" "Yes"
-				(at 7.62 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "NCM" "8541.29.10"
-				(at 7.62 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Lead Time (W)" "LT"
-				(at 7.62 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Maturity Level" "P/V/F"
-				(at 7.62 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Criticality" "C/S/G"
-				(at 7.62 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Created by" "Vinicius Mota 26/10/2023"
-				(at 7.62 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Reviewed by" "Marcelo Felix 14/11/2023"
-				(at 7.62 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "RK7002BM_0_1"
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy -4.826 -3.81) (xy -4.826 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RK7002BM_1_1"
-				(circle
-					(center -4.826 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.302) (xy -2.413 -3.429) (xy -2.413 -4.191) (xy -2.286 -4.318)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.81) (xy -3.175 -3.429) (xy -3.175 -4.191) (xy -2.54 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 1.905) (xy -2.286 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 -3.81) (xy -1.651 -4.191) (xy -1.651 -3.429) (xy -2.286 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -1.778 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 0.508) (xy -1.778 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -1.27) (xy -1.778 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -1.778) (xy 0.762 -1.778) (xy 0.762 1.778) (xy -1.778 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0) (xy -0.635 0.381) (xy -0.635 -0.381) (xy -1.651 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -0.889 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 0) (xy -1.778 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -3.81)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0.381) (xy 1.27 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.381) (xy 0.381 -0.254) (xy 1.143 -0.254) (xy 0.762 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -8.89 0 0)
-					(length 5.08)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 7.62 270)
-					(length 5.08)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 5.08)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6792,7 +5940,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 17.78 12.7 180)
 					(length 5.08)
 					(name "VOUT"
@@ -6810,7 +5958,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 17.78 10.16 180)
 					(length 5.08)
 					(name "VOUT"
@@ -7084,7 +6232,7 @@
 						(type background)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -15.24 10.16 0)
 					(length 5.08)
 					(name "IN"
@@ -7102,7 +6250,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -15.24 6.35 0)
 					(length 5.08)
 					(name "IN"
@@ -7384,7 +6532,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 15.24 10.16 180)
 					(length 5.08)
 					(name "OUT"
@@ -7402,7 +6550,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin passive line
 					(at 15.24 6.35 180)
 					(length 5.08)
 					(name "OUT"
@@ -7648,7 +6796,7 @@
 						(type background)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -15.24 10.16 0)
 					(length 5.08)
 					(name "IN"
@@ -7666,7 +6814,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -15.24 6.35 0)
 					(length 5.08)
 					(name "IN"
@@ -7796,7 +6944,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 15.24 10.16 180)
 					(length 5.08)
 					(name "OUT"
@@ -7814,7 +6962,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin passive line
 					(at 15.24 6.35 180)
 					(length 5.08)
 					(name "OUT"
@@ -8216,7 +7364,7 @@
 	)
 	(text_box "Re-think this digiPot strategy\nsince the V at the resistors inputs\ncannot be higher than Vdd+0.3"
 		(exclude_from_sim no)
-		(at -133.096 180.34 0)
+		(at 70.104 201.93 0)
 		(size 37.084 7.112)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -8403,7 +7551,7 @@
 		(uuid "1120c443-7979-42b4-821c-c93858c06cc8")
 	)
 	(junction
-		(at 273.05 286.766)
+		(at 273.05 287.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12fee591-b494-4108-a915-9a555a7df381")
@@ -8427,7 +7575,7 @@
 		(uuid "1c536416-49dc-4636-9e56-353eec953156")
 	)
 	(junction
-		(at 245.11 334.772)
+		(at 245.11 335.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2117ca44-83fd-40c3-8be7-849ab98f593a")
@@ -8463,6 +7611,12 @@
 		(uuid "35ee0b7b-31f5-498d-94b0-5d448dc9903d")
 	)
 	(junction
+		(at 217.17 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bb3a259-95fb-4f11-8d76-0bcbc7b88dcd")
+	)
+	(junction
 		(at 217.17 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8481,7 +7635,7 @@
 		(uuid "41bec9dd-0834-44b0-9854-bdad07d55045")
 	)
 	(junction
-		(at 220.218 259.08)
+		(at 219.71 259.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43d7d8b6-e1c8-4888-8c72-d60d7dedca91")
@@ -8491,12 +7645,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "471061ac-e6d1-4987-bdf2-7398fb74ca69")
-	)
-	(junction
-		(at 29.21 379.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47b2bd05-2c19-440c-9bff-041c7ce47edf")
 	)
 	(junction
 		(at 217.17 161.29)
@@ -8511,7 +7659,7 @@
 		(uuid "4cdfaa36-3438-4eeb-ac4e-a864535b7589")
 	)
 	(junction
-		(at 283.972 275.59)
+		(at 284.48 275.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d8e5fd0-8060-4cd6-adb0-3b68746651fd")
@@ -8541,7 +7689,13 @@
 		(uuid "61a39ab7-2a6c-49e1-91e3-70392ec57425")
 	)
 	(junction
-		(at 283.718 363.22)
+		(at 217.17 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "631bac60-46fa-4d1f-a216-ed7794f635a8")
+	)
+	(junction
+		(at 283.21 363.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64bb851c-45da-4e12-bcc8-1e1a5f533d44")
@@ -8559,6 +7713,12 @@
 		(uuid "6893557b-c22d-4faf-ab30-2b9bcaffadfd")
 	)
 	(junction
+		(at 217.17 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a3610df-eddf-489e-97b2-e323818ee1e8")
+	)
+	(junction
 		(at 461.01 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8569,18 +7729,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d92cfe5-154e-4f1f-962d-5bb555a01bbb")
-	)
-	(junction
-		(at 116.84 379.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8070d63e-dbcd-46eb-9f37-20a58514dfbf")
-	)
-	(junction
-		(at 73.66 379.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "839d330c-dfc5-4c75-bdb8-de874d82869f")
 	)
 	(junction
 		(at 217.17 58.42)
@@ -8607,22 +7755,10 @@
 		(uuid "8d377273-cb65-458f-bac5-2723ae3a6211")
 	)
 	(junction
-		(at 273.05 373.888)
+		(at 273.05 373.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "916b41c6-4b71-4bdd-90bf-3331c9c505cd")
-	)
-	(junction
-		(at 50.8 372.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "919eb1ca-1227-4aed-871f-1bcf60469fd1")
-	)
-	(junction
-		(at 138.43 372.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92078a76-7253-458e-862d-5eef3e08450c")
 	)
 	(junction
 		(at 120.65 320.04)
@@ -8631,7 +7767,7 @@
 		(uuid "948f7bcf-d92d-4010-8ec6-874edca78d26")
 	)
 	(junction
-		(at -97.79 163.83)
+		(at 105.41 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96195013-80e8-4fcd-8706-94b449601277")
@@ -8643,7 +7779,13 @@
 		(uuid "962c4107-77e0-43e1-a3d7-b0505ad83797")
 	)
 	(junction
-		(at 245.11 247.142)
+		(at 217.17 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9860d54a-7b91-4173-b3ef-3d3a1c584916")
+	)
+	(junction
+		(at 245.11 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fc78561-c596-45db-81f2-fe7e447bbf63")
@@ -8697,7 +7839,7 @@
 		(uuid "d2fee11c-a9a2-4b80-937a-4ee46caf6032")
 	)
 	(junction
-		(at 219.456 346.71)
+		(at 219.71 346.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da5f2757-a282-46ab-8eba-0301f6907893")
@@ -8727,12 +7869,6 @@
 		(uuid "f22b9a0f-672f-4c1b-952b-c4ca143d2531")
 	)
 	(junction
-		(at 92.71 372.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f25e5156-881e-4e37-902c-2cb30968a41e")
-	)
-	(junction
 		(at 96.52 309.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8751,7 +7887,7 @@
 		(uuid "fa7446bb-f887-4331-b6a8-06f4fa8fade0")
 	)
 	(junction
-		(at -97.79 148.59)
+		(at 105.41 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fac6b11c-3f99-4190-884a-e27ceba971a5")
@@ -8823,16 +7959,6 @@
 	(no_connect
 		(at 508 134.62)
 		(uuid "e30142cb-001e-4f19-ba45-fdfd085e8748")
-	)
-	(wire
-		(pts
-			(xy 125.73 372.11) (xy 138.43 372.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "011703f8-a39b-407a-b161-a61b073119ad")
 	)
 	(wire
 		(pts
@@ -8956,16 +8082,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 379.73) (xy 82.55 379.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0de44a39-23b0-4b1d-b8e9-86c3552125c8")
-	)
-	(wire
-		(pts
 			(xy 473.71 99.06) (xy 473.71 101.6)
 		)
 		(stroke
@@ -8986,7 +8102,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 180.34) (xy 222.25 180.34)
+			(xy 213.36 180.34) (xy 217.17 180.34)
 		)
 		(stroke
 			(width 0)
@@ -9016,7 +8132,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 334.01) (xy 245.11 334.772)
+			(xy 245.11 334.01) (xy 245.11 335.28)
 		)
 		(stroke
 			(width 0)
@@ -9076,13 +8192,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 372.11) (xy 100.33 372.11)
+			(xy 217.17 180.34) (xy 222.25 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "157425c6-5c27-42b1-ba84-f8a5e8cfe1e7")
+		(uuid "147c12f5-0ec6-4c2c-a071-075c49255fd0")
 	)
 	(wire
 		(pts
@@ -9096,7 +8212,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.218 257.302) (xy 220.218 259.08)
+			(xy 219.71 257.81) (xy 219.71 259.08)
 		)
 		(stroke
 			(width 0)
@@ -9116,7 +8232,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 363.22) (xy 358.14 363.22)
+			(xy 353.06 363.22) (xy 363.22 363.22)
 		)
 		(stroke
 			(width 0)
@@ -9136,6 +8252,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 74.93) (xy 217.17 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a06ba88-4c79-409f-b693-293763d84f50")
+	)
+	(wire
+		(pts
 			(xy 217.17 189.23) (xy 217.17 191.77)
 		)
 		(stroke
@@ -9146,7 +8272,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.456 343.916) (xy 219.456 346.71)
+			(xy 219.71 344.17) (xy 219.71 346.71)
 		)
 		(stroke
 			(width 0)
@@ -9156,7 +8282,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.718 363.22) (xy 307.34 363.22)
+			(xy 283.21 363.22) (xy 312.42 363.22)
 		)
 		(stroke
 			(width 0)
@@ -9226,16 +8352,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 379.73) (xy 92.71 372.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "213812de-34ce-4ad3-a92e-ca5bd8314f19")
-	)
-	(wire
-		(pts
 			(xy 267.97 78.74) (xy 267.97 82.55)
 		)
 		(stroke
@@ -9266,7 +8382,7 @@
 	)
 	(wire
 		(pts
-			(xy -138.43 173.99) (xy -138.43 176.53)
+			(xy 64.77 195.58) (xy 64.77 198.12)
 		)
 		(stroke
 			(width 0)
@@ -9283,16 +8399,6 @@
 			(type default)
 		)
 		(uuid "240ee948-143e-452b-b50a-de63a5046804")
-	)
-	(wire
-		(pts
-			(xy 273.05 286.766) (xy 273.05 287.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24f89f00-82c3-4e09-bff8-67443b378f86")
 	)
 	(wire
 		(pts
@@ -9336,7 +8442,7 @@
 	)
 	(wire
 		(pts
-			(xy -101.6 143.51) (xy -74.93 143.51)
+			(xy 101.6 165.1) (xy 128.27 165.1)
 		)
 		(stroke
 			(width 0)
@@ -9366,7 +8472,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.718 373.888) (xy 273.05 373.888)
+			(xy 283.21 373.38) (xy 273.05 373.38)
 		)
 		(stroke
 			(width 0)
@@ -9376,17 +8482,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 379.73) (xy 92.71 379.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2def5df3-2a29-43b0-bc46-55c046b229d8")
-	)
-	(wire
-		(pts
-			(xy 219.456 336.296) (xy 219.456 334.772)
+			(xy 219.71 336.55) (xy 219.71 335.28)
 		)
 		(stroke
 			(width 0)
@@ -9396,7 +8492,7 @@
 	)
 	(wire
 		(pts
-			(xy -101.6 153.67) (xy -97.79 153.67)
+			(xy 101.6 175.26) (xy 105.41 175.26)
 		)
 		(stroke
 			(width 0)
@@ -9416,7 +8512,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.456 346.71) (xy 220.98 346.71)
+			(xy 219.71 346.71) (xy 220.98 346.71)
 		)
 		(stroke
 			(width 0)
@@ -9436,7 +8532,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 246.38) (xy 245.11 247.142)
+			(xy 245.11 246.38) (xy 245.11 247.65)
 		)
 		(stroke
 			(width 0)
@@ -9486,7 +8582,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 275.59) (xy 283.972 275.59)
+			(xy 273.05 275.59) (xy 284.48 275.59)
 		)
 		(stroke
 			(width 0)
@@ -9496,23 +8592,13 @@
 	)
 	(wire
 		(pts
-			(xy -138.43 143.51) (xy -138.43 142.24)
+			(xy 64.77 165.1) (xy 64.77 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "383f4297-345f-49c2-bf32-ce78af98f736")
-	)
-	(wire
-		(pts
-			(xy 116.84 391.16) (xy 116.84 394.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38e28621-164d-4744-8858-382dc021ca5c")
 	)
 	(wire
 		(pts
@@ -9536,7 +8622,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.972 275.59) (xy 307.34 275.59)
+			(xy 284.48 275.59) (xy 307.34 275.59)
 		)
 		(stroke
 			(width 0)
@@ -9546,13 +8632,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 372.11) (xy 143.51 372.11)
+			(xy 217.17 74.93) (xy 222.25 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e0ff34e-3923-43fe-ad01-53d3b729d042")
+		(uuid "3d7d0067-fced-42d3-a629-609cb44aa89f")
 	)
 	(wire
 		(pts
@@ -9596,7 +8682,7 @@
 	)
 	(wire
 		(pts
-			(xy -97.79 168.91) (xy -97.79 163.83)
+			(xy 105.41 190.5) (xy 105.41 185.42)
 		)
 		(stroke
 			(width 0)
@@ -9623,16 +8709,6 @@
 			(type default)
 		)
 		(uuid "46e1a507-6a59-490a-96fb-e6d9135d01c4")
-	)
-	(wire
-		(pts
-			(xy 29.21 353.06) (xy 29.21 364.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "470e356a-fa76-4dd9-a8ae-5cddedafff19")
 	)
 	(wire
 		(pts
@@ -9696,6 +8772,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 180.34) (xy 217.17 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4de46b51-0364-45b0-9acd-83d8a43ee216")
+	)
+	(wire
+		(pts
 			(xy 109.22 320.04) (xy 120.65 320.04)
 		)
 		(stroke
@@ -9736,7 +8822,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 372.11) (xy 273.05 373.888)
+			(xy 273.05 372.11) (xy 273.05 373.38)
 		)
 		(stroke
 			(width 0)
@@ -9746,7 +8832,7 @@
 	)
 	(wire
 		(pts
-			(xy -101.6 148.59) (xy -97.79 148.59)
+			(xy 101.6 170.18) (xy 105.41 170.18)
 		)
 		(stroke
 			(width 0)
@@ -9836,16 +8922,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 372.11) (xy 138.43 379.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a882151-398d-450f-8421-e3e8d15f045a")
-	)
-	(wire
-		(pts
 			(xy 267.97 55.88) (xy 267.97 59.69)
 		)
 		(stroke
@@ -9886,7 +8962,7 @@
 	)
 	(wire
 		(pts
-			(xy -101.6 173.99) (xy -101.6 176.53)
+			(xy 101.6 195.58) (xy 101.6 198.12)
 		)
 		(stroke
 			(width 0)
@@ -9926,7 +9002,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 363.22) (xy 283.718 363.22)
+			(xy 273.05 363.22) (xy 283.21 363.22)
 		)
 		(stroke
 			(width 0)
@@ -9946,7 +9022,7 @@
 	)
 	(wire
 		(pts
-			(xy -135.89 161.29) (xy -132.08 161.29)
+			(xy 67.31 182.88) (xy 71.12 182.88)
 		)
 		(stroke
 			(width 0)
@@ -10016,16 +9092,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 379.73) (xy 138.43 379.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "711e4530-4fa3-47b3-86c1-52455e4f386e")
-	)
-	(wire
-		(pts
 			(xy 245.11 354.33) (xy 250.19 354.33)
 		)
 		(stroke
@@ -10036,7 +9102,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 247.142) (xy 245.11 251.46)
+			(xy 245.11 247.65) (xy 245.11 251.46)
 		)
 		(stroke
 			(width 0)
@@ -10056,7 +9122,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 358.14) (xy 307.34 358.14)
+			(xy 290.83 358.14) (xy 312.42 358.14)
 		)
 		(stroke
 			(width 0)
@@ -10146,16 +9212,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 379.73) (xy 50.8 379.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f59400b-aa4c-4234-930c-c4dfe3031626")
-	)
-	(wire
-		(pts
 			(xy 204.47 170.18) (xy 204.47 171.45)
 		)
 		(stroke
@@ -10206,7 +9262,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.718 372.364) (xy 283.718 373.888)
+			(xy 283.21 372.11) (xy 283.21 373.38)
 		)
 		(stroke
 			(width 0)
@@ -10276,7 +9332,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.218 249.682) (xy 220.218 247.142)
+			(xy 219.71 250.19) (xy 219.71 247.65)
 		)
 		(stroke
 			(width 0)
@@ -10326,7 +9382,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.456 334.772) (xy 245.11 334.772)
+			(xy 219.71 335.28) (xy 245.11 335.28)
 		)
 		(stroke
 			(width 0)
@@ -10386,7 +9442,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.718 363.22) (xy 283.718 364.744)
+			(xy 283.21 363.22) (xy 283.21 364.49)
 		)
 		(stroke
 			(width 0)
@@ -10396,7 +9452,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 355.6) (xy 307.34 355.6)
+			(xy 290.83 355.6) (xy 312.42 355.6)
 		)
 		(stroke
 			(width 0)
@@ -10433,16 +9489,6 @@
 			(type default)
 		)
 		(uuid "941cd5ac-1948-4169-830a-40c13138c950")
-	)
-	(wire
-		(pts
-			(xy 50.8 372.11) (xy 55.88 372.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9466b677-b95e-4f1e-9126-07d85adbb0bf")
 	)
 	(wire
 		(pts
@@ -10556,7 +9602,7 @@
 	)
 	(wire
 		(pts
-			(xy -97.79 148.59) (xy -72.39 148.59)
+			(xy 105.41 170.18) (xy 130.81 170.18)
 		)
 		(stroke
 			(width 0)
@@ -10596,7 +9642,7 @@
 	)
 	(wire
 		(pts
-			(xy -101.6 168.91) (xy -97.79 168.91)
+			(xy 101.6 190.5) (xy 105.41 190.5)
 		)
 		(stroke
 			(width 0)
@@ -10676,7 +9722,7 @@
 	)
 	(wire
 		(pts
-			(xy -138.43 173.99) (xy -132.08 173.99)
+			(xy 64.77 195.58) (xy 71.12 195.58)
 		)
 		(stroke
 			(width 0)
@@ -10706,7 +9752,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 46.99) (xy 342.9 46.99)
+			(xy 339.09 46.99) (xy 349.25 46.99)
 		)
 		(stroke
 			(width 0)
@@ -10726,7 +9772,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 259.08) (xy 220.218 259.08)
+			(xy 217.17 259.08) (xy 219.71 259.08)
 		)
 		(stroke
 			(width 0)
@@ -10786,7 +9832,7 @@
 	)
 	(wire
 		(pts
-			(xy -135.89 158.75) (xy -132.08 158.75)
+			(xy 67.31 180.34) (xy 71.12 180.34)
 		)
 		(stroke
 			(width 0)
@@ -10796,17 +9842,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 379.73) (xy 127 379.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5ccb012-57a8-4f32-92af-b6e771453101")
-	)
-	(wire
-		(pts
-			(xy 273.05 284.48) (xy 273.05 286.766)
+			(xy 273.05 284.48) (xy 273.05 287.02)
 		)
 		(stroke
 			(width 0)
@@ -10856,7 +9892,7 @@
 	)
 	(wire
 		(pts
-			(xy -101.6 158.75) (xy -74.93 158.75)
+			(xy 101.6 180.34) (xy 128.27 180.34)
 		)
 		(stroke
 			(width 0)
@@ -10873,16 +9909,6 @@
 			(type default)
 		)
 		(uuid "bd99d746-861a-4ec0-b646-fd83b258c6cd")
-	)
-	(wire
-		(pts
-			(xy 73.66 353.06) (xy 73.66 364.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdbae7dc-c0ec-4188-89bf-c8f941b35b52")
 	)
 	(wire
 		(pts
@@ -10936,7 +9962,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 334.772) (xy 245.11 339.09)
+			(xy 245.11 335.28) (xy 245.11 339.09)
 		)
 		(stroke
 			(width 0)
@@ -11006,16 +10032,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 372.11) (xy 50.8 379.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb7a175c-97af-4ae3-a35a-41d93e6a5d9c")
-	)
-	(wire
-		(pts
 			(xy 262.89 266.7) (xy 264.16 266.7)
 		)
 		(stroke
@@ -11066,7 +10082,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.972 286.766) (xy 273.05 286.766)
+			(xy 284.48 287.02) (xy 273.05 287.02)
 		)
 		(stroke
 			(width 0)
@@ -11086,23 +10102,13 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 373.888) (xy 273.05 374.65)
+			(xy 273.05 373.38) (xy 273.05 374.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d45d0ce2-b2a8-448d-ab8e-5cca9c9e80d8")
-	)
-	(wire
-		(pts
-			(xy 116.84 383.54) (xy 116.84 379.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d48a3a04-549f-4aee-8f49-81d823229ff2")
 	)
 	(wire
 		(pts
@@ -11176,7 +10182,7 @@
 	)
 	(wire
 		(pts
-			(xy -132.08 143.51) (xy -138.43 143.51)
+			(xy 71.12 165.1) (xy 64.77 165.1)
 		)
 		(stroke
 			(width 0)
@@ -11186,7 +10192,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.972 284.988) (xy 283.972 286.766)
+			(xy 284.48 284.48) (xy 284.48 287.02)
 		)
 		(stroke
 			(width 0)
@@ -11206,7 +10212,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 346.71) (xy 219.456 346.71)
+			(xy 217.17 346.71) (xy 219.71 346.71)
 		)
 		(stroke
 			(width 0)
@@ -11236,7 +10242,7 @@
 	)
 	(wire
 		(pts
-			(xy -97.79 163.83) (xy -72.39 163.83)
+			(xy 105.41 185.42) (xy 130.81 185.42)
 		)
 		(stroke
 			(width 0)
@@ -11246,7 +10252,7 @@
 	)
 	(wire
 		(pts
-			(xy -101.6 163.83) (xy -97.79 163.83)
+			(xy 101.6 185.42) (xy 105.41 185.42)
 		)
 		(stroke
 			(width 0)
@@ -11276,17 +10282,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 379.73) (xy 39.37 379.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e53710c3-334e-43e2-bb1a-7399c51a9e44")
-	)
-	(wire
-		(pts
-			(xy 283.972 275.59) (xy 283.972 277.368)
+			(xy 284.48 275.59) (xy 284.48 276.86)
 		)
 		(stroke
 			(width 0)
@@ -11296,7 +10292,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 74.93) (xy 222.25 74.93)
+			(xy 212.09 74.93) (xy 217.17 74.93)
 		)
 		(stroke
 			(width 0)
@@ -11336,7 +10332,7 @@
 	)
 	(wire
 		(pts
-			(xy -97.79 153.67) (xy -97.79 148.59)
+			(xy 105.41 175.26) (xy 105.41 170.18)
 		)
 		(stroke
 			(width 0)
@@ -11356,7 +10352,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.218 259.08) (xy 220.98 259.08)
+			(xy 219.71 259.08) (xy 220.98 259.08)
 		)
 		(stroke
 			(width 0)
@@ -11373,16 +10369,6 @@
 			(type default)
 		)
 		(uuid "eb99b13f-45c8-4134-a2ca-ea7370de4c54")
-	)
-	(wire
-		(pts
-			(xy 116.84 353.06) (xy 116.84 364.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebe7c283-d285-457c-9075-e3d9d53d7c79")
 	)
 	(wire
 		(pts
@@ -11426,33 +10412,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 372.11) (xy 50.8 372.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0e1413f-54f2-4db6-b8df-ae43d4923b30")
-	)
-	(wire
-		(pts
-			(xy 220.218 247.142) (xy 245.11 247.142)
+			(xy 219.71 247.65) (xy 245.11 247.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f3261064-91ce-4f2d-b25c-2d3ded80ae85")
-	)
-	(wire
-		(pts
-			(xy 82.55 372.11) (xy 92.71 372.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5890ea6-7ac0-4a3f-bf1d-12b91b3e95df")
 	)
 	(wire
 		(pts
@@ -11506,7 +10472,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 354.33) (xy 354.33 354.33)
+			(xy 353.06 354.33) (xy 359.41 354.33)
 		)
 		(stroke
 			(width 0)
@@ -24830,7 +23796,7 @@
 		(uuid "0a103c38-2958-45b5-a45e-cbfce21e5883")
 	)
 	(label "-15V_LDO_V_SENSE"
-		(at -72.39 163.83 180)
+		(at 130.81 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24872,7 +23838,7 @@
 		(uuid "1f533b3f-61de-48ea-9707-219ed1b2f608")
 	)
 	(label "-15V_LDO"
-		(at -74.93 158.75 180)
+		(at 128.27 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24923,18 +23889,8 @@
 		)
 		(uuid "3f745578-f912-4e37-b9ba-82ae7bea5df0")
 	)
-	(label "FB_SELECT"
-		(at 73.66 353.06 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4ff967a5-504f-4b63-a865-a7879d661e30")
-	)
 	(label "+INA_CTRL_RAIL_4"
-		(at 285.75 355.6 0)
+		(at 290.83 355.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -24954,16 +23910,6 @@
 			(justify left bottom)
 		)
 		(uuid "640cbdae-a336-44b9-b887-33e29c0b546b")
-	)
-	(label "FB_SELECT"
-		(at 29.21 353.06 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7a42040d-0db7-43d9-b442-1a84aa3588c6")
 	)
 	(label "FB_SELECT"
 		(at 96.52 328.93 180)
@@ -24987,7 +23933,7 @@
 		(uuid "8148764f-5410-4f30-a0a7-709867ef6619")
 	)
 	(label "-INA_CTRL_RAIL_4"
-		(at 285.75 358.14 0)
+		(at 290.83 358.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25018,7 +23964,7 @@
 		(uuid "a33776ab-05cb-482b-882e-862a73bb23fd")
 	)
 	(label "+15V_LDO"
-		(at -74.93 143.51 180)
+		(at 128.27 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25026,16 +23972,6 @@
 			(justify right bottom)
 		)
 		(uuid "a3391566-b4e7-43d7-9617-5feebdf9b588")
-	)
-	(label "FB_SELECT"
-		(at 116.84 353.06 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b068f601-0383-4684-90ac-28da07111685")
 	)
 	(label "-INA_CTRL_RAIL_1"
 		(at 279.4 50.8 0)
@@ -25070,7 +24006,7 @@
 		(uuid "c27f5319-921b-4c53-93f1-26c0215ff555")
 	)
 	(label "+15V_LDO_V_SENSE"
-		(at -72.39 148.59 180)
+		(at 130.81 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25132,7 +24068,7 @@
 	)
 	(global_label "SCL_ISO"
 		(shape input)
-		(at -135.89 158.75 180)
+		(at 67.31 180.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25142,7 +24078,7 @@
 		)
 		(uuid "8a0bc031-ec0b-4555-a935-ca92791a5fb6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -146.4952 158.75 0)
+			(at 56.7048 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25154,7 +24090,7 @@
 	)
 	(global_label "SDA_ISO"
 		(shape input)
-		(at -135.89 161.29 180)
+		(at 67.31 182.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -25164,7 +24100,7 @@
 		)
 		(uuid "ac4ff9a7-0d25-48dd-a362-ef1ffceadec8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -146.5557 161.29 0)
+			(at 56.6443 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25173,6 +24109,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "DigiPot_A1"
+		(shape passive)
+		(at 71.12 187.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02107f70-1ca1-4fa4-a989-d5769c1e9cab")
 	)
 	(hierarchical_label "-ISO_LDO_CTRL_x1_+15V"
 		(shape output)
@@ -25198,7 +24145,7 @@
 	)
 	(hierarchical_label "-ISO_LDO_CTRL_x2_+15V_SCALE"
 		(shape output)
-		(at 354.33 354.33 0)
+		(at 359.41 354.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25229,6 +24176,17 @@
 		)
 		(uuid "39ce09ce-8989-4d3a-9137-0fde66e9eaab")
 	)
+	(hierarchical_label "DigiPot_A0"
+		(shape passive)
+		(at 71.12 185.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6efb828c-3e73-4a41-9511-a828d8d05368")
+	)
 	(hierarchical_label "+ISO_LDO_CTRL_x2_+15V_SCALE"
 		(shape output)
 		(at 345.44 152.4 0)
@@ -25240,7 +24198,7 @@
 		)
 		(uuid "723d06f2-0887-4d90-bc27-79285ddaadd4")
 	)
-	(hierarchical_label "-PWR_SWITCH_ISO_CTRL_2X_EN"
+	(hierarchical_label "~{-PWR_SWITCH_ISO_CTRL_2X_EN}"
 		(shape input)
 		(at 217.17 346.71 180)
 		(effects
@@ -25253,7 +24211,7 @@
 	)
 	(hierarchical_label "-ISO_LDO_CTRL_x2_+15V"
 		(shape output)
-		(at 358.14 363.22 0)
+		(at 363.22 363.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25284,9 +24242,20 @@
 		)
 		(uuid "a960c8ba-1b29-488f-8d04-b4da052d2963")
 	)
+	(hierarchical_label "DigiPot_A2"
+		(shape passive)
+		(at 71.12 190.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9ed5ae3-3b73-4f60-8d4f-40beb584bdfb")
+	)
 	(hierarchical_label "+PWR_SWITCH_ISO_CTRL_X1_EN"
 		(shape input)
-		(at 220.98 74.93 180)
+		(at 212.09 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25297,7 +24266,7 @@
 	)
 	(hierarchical_label "+ISO_LDO_CTRL_x1_+15V_SCALE"
 		(shape output)
-		(at 342.9 46.99 0)
+		(at 349.25 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25308,7 +24277,7 @@
 	)
 	(hierarchical_label "+PWR_SWITCH_ISO_CTRL_X2_EN"
 		(shape input)
-		(at 219.71 180.34 180)
+		(at 213.36 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25328,7 +24297,7 @@
 		)
 		(uuid "e72218b2-a186-4369-b62a-fe7e800afcc4")
 	)
-	(hierarchical_label "-PWR_SWITCH_ISO_CTRL_1X_EN"
+	(hierarchical_label "~{-PWR_SWITCH_ISO_CTRL_1X_EN}"
 		(shape input)
 		(at 217.17 259.08 180)
 		(effects
@@ -25895,213 +24864,6 @@
 				)
 				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/edc20464-f4b8-4832-b891-8da6c69fab31"
 					(reference "C90")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "resistor:499k-0402_01")
-		(at 29.21 391.16 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "046e3c01-2a6d-4292-9907-cf9c9c54ddc5")
-		(property "Reference" "R215"
-			(at 31.75 389.8899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "499k-0402_01"
-			(at 13.97 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "passive:Resistor_0402"
-			(at 16.51 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 19.05 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor 499k 1% 62.5mW -55°C 155°C SMD 0402"
-			(at 21.59 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description pt-br" "Resistor 499k 1% 62.5mW -55°C 155°C SMD 0402"
-			(at 24.13 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 26.67 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RC0402FR-07499KL"
-			(at 29.21 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "SAP Code" "RESG-0047"
-			(at 31.75 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "PLM Code" "PRPTRAC00001267"
-			(at 34.29 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "RoHS Compliance" "Yes"
-			(at 36.83 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "NCM" "8533.21.20"
-			(at 39.37 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Lead Time (W)" "LT"
-			(at 41.91 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Maturity Level" "P/V/F"
-			(at 44.45 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Criticality" "C/S/G"
-			(at 46.99 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Created by" "*"
-			(at 49.53 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Reviewed by" "*"
-			(at 52.07 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Friendly Name" "499k"
-			(at 31.75 392.4299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "f7b41efc-dc5d-4d33-b5c1-d52077c84930")
-		)
-		(pin "2"
-			(uuid "e5f4180f-3aed-47a9-9da1-cd2cd6205399")
-		)
-		(instances
-			(project ""
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/dea657e5-81fd-406f-8fc5-8ab717a840d3"
-					(reference "R216")
-					(unit 1)
-				)
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/edc20464-f4b8-4832-b891-8da6c69fab31"
-					(reference "R215")
 					(unit 1)
 				)
 			)
@@ -26798,207 +25560,70 @@
 		)
 	)
 	(symbol
-		(lib_id "resistor:1M-0402_01")
-		(at 73.66 383.54 90)
+		(lib_id "power-label:PWR_FLAG")
+		(at 283.21 363.22 0)
 		(unit 1)
 		(exclude_from_sim yes)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1989a887-bd86-4dad-8792-16afe608439b")
-		(property "Reference" "R223"
-			(at 76.2 382.2699 90)
+		(uuid "173a4555-7ac1-4545-a08e-c2862f5af84c")
+		(property "Reference" "#FLG043"
+			(at 283.21 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-			)
-		)
-		(property "Value" "1M-0402_01"
-			(at 58.42 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "passive:Resistor_0402"
-			(at 60.96 370.84 0)
+		(property "Value" "PWR_FLAG"
+			(at 283.21 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_10.pdf"
-			(at 63.5 370.84 0)
+		(property "Datasheet" ""
+			(at 283.21 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 1M 1% 62.5mW -55°C 155°C SMD 0402"
-			(at 66.04 370.84 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 283.21 365.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Description pt-br" "Resistor 1M 1% 62.5mW -55°C 155°C SMD 0402"
-			(at 68.58 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 71.12 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "AC0402FR-071ML"
-			(at 73.66 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "SAP Code" "RESG-0046"
-			(at 76.2 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "PLM Code" "PRPTRAC00001266"
-			(at 78.74 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "RoHS Compliance" "Yes"
-			(at 81.28 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "NCM" "8533.21.20"
-			(at 83.82 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Lead Time (W)" "LT"
-			(at 86.36 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Maturity Level" "P/V/F"
-			(at 88.9 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Criticality" "C/S/G"
-			(at 91.44 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Created by" "*"
-			(at 93.98 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Reviewed by" "*"
-			(at 96.52 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Friendly Name" "1M"
-			(at 76.2 384.8099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "1"
-			(uuid "fb8b5c34-ae03-4fc7-b475-25d1a27e8edf")
-		)
-		(pin "2"
-			(uuid "8ac8ab6f-3d92-4dfc-bc9f-c1d1dc1d916a")
+			(uuid "1edd62c9-eab7-4976-a157-698eea0b6932")
 		)
 		(instances
 			(project "powerboard"
 				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/dea657e5-81fd-406f-8fc5-8ab717a840d3"
-					(reference "R224")
+					(reference "#FLG044")
 					(unit 1)
 				)
 				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/edc20464-f4b8-4832-b891-8da6c69fab31"
-					(reference "R223")
+					(reference "#FLG043")
 					(unit 1)
 				)
 			)
@@ -27418,7 +26043,7 @@
 	)
 	(symbol
 		(lib_id "integrated-circuit:TPL0102-100PWR")
-		(at -116.84 158.75 0)
+		(at 86.36 180.34 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -27427,7 +26052,7 @@
 		(fields_autoplaced yes)
 		(uuid "202a4aed-e54b-4393-832f-c6428286cc62")
 		(property "Reference" "U33"
-			(at -116.84 135.89 0)
+			(at 86.36 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27435,7 +26060,7 @@
 			)
 		)
 		(property "Value" "TPL0102-100PWR"
-			(at -116.84 138.43 0)
+			(at 86.36 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27443,7 +26068,7 @@
 			)
 		)
 		(property "Footprint" "semiconductor:TSSOP-14_P0.65_4.4x5x1.2"
-			(at -91.44 146.05 0)
+			(at 111.76 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27453,7 +26078,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpl0102-100.pdf?ts=1729112466273&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPL0102-100%253FkeyMatch%253DTPL0102-100PWR%2526tisearch%253Duniversal_search%2526usecase%253DOPN"
-			(at -91.44 148.59 0)
+			(at 111.76 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27463,7 +26088,7 @@
 			)
 		)
 		(property "Description" "Digital Potentiometer 2 Channels 100k 256 steps I2C -40°C 85°C SMD TSSOP-14"
-			(at -91.44 151.13 0)
+			(at 111.76 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27473,7 +26098,7 @@
 			)
 		)
 		(property "Description pt-br" "Potenciômetro Digital 2 Canais 100k 256 passos I2C -40°C 85°C SMD TSSOP-14"
-			(at -91.44 153.67 0)
+			(at 111.76 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27483,7 +26108,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at -91.44 156.21 0)
+			(at 111.76 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27493,7 +26118,7 @@
 			)
 		)
 		(property "Part Number" "TPL0102-100PWR"
-			(at -91.44 158.75 0)
+			(at 111.76 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27503,7 +26128,7 @@
 			)
 		)
 		(property "SAP Code" "CISC-XXXX"
-			(at -91.44 161.29 0)
+			(at 111.76 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27513,7 +26138,7 @@
 			)
 		)
 		(property "PLM Code" "TBD"
-			(at -91.44 163.83 0)
+			(at 111.76 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27523,7 +26148,7 @@
 			)
 		)
 		(property "RoHS Compliance" "Yes"
-			(at -91.44 166.37 0)
+			(at 111.76 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27533,7 +26158,7 @@
 			)
 		)
 		(property "NCM" "8542.39.39"
-			(at -91.44 168.91 0)
+			(at 111.76 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27543,7 +26168,7 @@
 			)
 		)
 		(property "Lead Time (W)" "LT"
-			(at -91.44 171.45 0)
+			(at 111.76 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27553,7 +26178,7 @@
 			)
 		)
 		(property "Maturity Level" "P/V/F"
-			(at -91.44 173.99 0)
+			(at 111.76 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27563,7 +26188,7 @@
 			)
 		)
 		(property "Criticality" "C/S/G"
-			(at -91.44 176.53 0)
+			(at 111.76 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27573,7 +26198,7 @@
 			)
 		)
 		(property "Created by" "Marcelo Felix 16/10/2024"
-			(at -91.44 179.07 0)
+			(at 111.76 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27583,7 +26208,7 @@
 			)
 		)
 		(property "Reviewed by" "Iago Melo 05/11/2024"
-			(at -91.44 181.61 0)
+			(at 111.76 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27717,8 +26342,78 @@
 		)
 	)
 	(symbol
+		(lib_id "power-label:PWR_FLAG")
+		(at 284.48 275.59 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20ef634a-13ea-4cb0-9159-1e6a6345b9a0")
+		(property "Reference" "#FLG041"
+			(at 284.48 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 284.48 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 284.48 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10148c61-5475-4de8-bd56-c96557e333b1")
+		)
+		(instances
+			(project "powerboard"
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/dea657e5-81fd-406f-8fc5-8ab717a840d3"
+					(reference "#FLG042")
+					(unit 1)
+				)
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/edc20464-f4b8-4832-b891-8da6c69fab31"
+					(reference "#FLG041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "capacitor:100nF-0402_01")
-		(at 283.972 281.178 0)
+		(at 284.48 280.67 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -27727,7 +26422,7 @@
 		(fields_autoplaced yes)
 		(uuid "264578b0-15fe-4dad-aa46-4bd4177365fc")
 		(property "Reference" "C217"
-			(at 287.02 279.9079 0)
+			(at 287.528 279.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27736,7 +26431,7 @@
 			)
 		)
 		(property "Value" "100nF-0402_01"
-			(at 297.942 268.478 0)
+			(at 298.45 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27746,7 +26441,7 @@
 			)
 		)
 		(property "Footprint" "passive:Capacitor_0402"
-			(at 297.942 271.018 0)
+			(at 298.45 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27756,7 +26451,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
-			(at 297.942 273.558 0)
+			(at 298.45 273.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27766,7 +26461,7 @@
 			)
 		)
 		(property "Description" "Capacitor MLCC 100nF 5% 25V X7R -55°C 125°C SMD 0402"
-			(at 297.942 276.098 0)
+			(at 298.45 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27776,7 +26471,7 @@
 			)
 		)
 		(property "Description pt-br" "Capacitor MLCC 100nF 5% 25V X7R -55°C 125°C SMD 0402"
-			(at 297.942 278.638 0)
+			(at 298.45 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27786,7 +26481,7 @@
 			)
 		)
 		(property "Manufacturer" "Kyocera AVX;Kyocera AVX"
-			(at 297.942 281.178 0)
+			(at 298.45 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27796,7 +26491,7 @@
 			)
 		)
 		(property "Part Number" "04023C104JAT2A;KGM05AR71E104JH"
-			(at 297.942 283.718 0)
+			(at 298.45 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27806,7 +26501,7 @@
 			)
 		)
 		(property "SAP Code" "CAPC-0023"
-			(at 297.942 286.258 0)
+			(at 298.45 285.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27816,7 +26511,7 @@
 			)
 		)
 		(property "PLM Code" "PRPTRAC00000598"
-			(at 297.942 288.798 0)
+			(at 298.45 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27826,7 +26521,7 @@
 			)
 		)
 		(property "RoHS Compliance" "Yes"
-			(at 297.942 291.338 0)
+			(at 298.45 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27836,7 +26531,7 @@
 			)
 		)
 		(property "NCM" "8532.24.10"
-			(at 297.942 293.878 0)
+			(at 298.45 293.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27846,7 +26541,7 @@
 			)
 		)
 		(property "Lead Time (W)" "LT"
-			(at 297.942 296.418 0)
+			(at 298.45 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27856,7 +26551,7 @@
 			)
 		)
 		(property "Maturity Level" "P/V/F"
-			(at 297.942 298.958 0)
+			(at 298.45 298.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27866,7 +26561,7 @@
 			)
 		)
 		(property "Criticality" "C/S/G"
-			(at 297.942 301.498 0)
+			(at 298.45 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27876,7 +26571,7 @@
 			)
 		)
 		(property "Created by" "NA"
-			(at 297.942 304.038 0)
+			(at 298.45 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27886,7 +26581,7 @@
 			)
 		)
 		(property "Reviewed by" "Rafaella Monti 18/10/2023"
-			(at 297.942 306.578 0)
+			(at 298.45 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27896,7 +26591,7 @@
 			)
 		)
 		(property "Friendly Name" "100nF"
-			(at 287.02 282.4479 0)
+			(at 287.528 281.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28613,210 +27308,6 @@
 		)
 	)
 	(symbol
-		(lib_id "resistor:1k-0402_01")
-		(at 43.18 379.73 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2f03b46a-9753-48ba-a744-d3f910237090")
-		(property "Reference" "R229"
-			(at 43.18 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k-0402_01"
-			(at 55.88 364.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "passive:Resistor_0402"
-			(at 55.88 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/1263"
-			(at 55.88 369.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor 1k 1% 100mW -55°C 155°C SMD 0402"
-			(at 55.88 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description pt-br" "Resistor 1k 1% 100mW -55°C 155°C SMD 0402"
-			(at 55.88 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 55.88 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "ERJ-2RKF1001X"
-			(at 55.88 379.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "SAP Code" "RESG-0007"
-			(at 55.88 382.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "PLM Code" "PRPTRAC00001226"
-			(at 55.88 384.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "RoHS Compliance" "Yes"
-			(at 55.88 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "NCM" "8533.21.20"
-			(at 55.88 389.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Lead Time (W)" "LT"
-			(at 55.88 392.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Maturity Level" "P/V/F"
-			(at 55.88 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Criticality" "C/S/G"
-			(at 55.88 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Created by" "NA"
-			(at 55.88 400.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Reviewed by" "Rafaella Monti 18/10/2023"
-			(at 55.88 402.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Friendly Name" "1k"
-			(at 43.18 382.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0b861710-cea0-410e-89e1-74965c70f7c8")
-		)
-		(pin "2"
-			(uuid "410b9750-c734-42bc-b86f-3767937a83bc")
-		)
-		(instances
-			(project "powerboard"
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/dea657e5-81fd-406f-8fc5-8ab717a840d3"
-					(reference "R230")
-					(unit 1)
-				)
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/edc20464-f4b8-4832-b891-8da6c69fab31"
-					(reference "R229")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "resistor:215k-0402_01")
 		(at 83.82 316.23 90)
 		(unit 1)
@@ -29025,7 +27516,7 @@
 	)
 	(symbol
 		(lib_id "staging:GND_ISO_15V")
-		(at -138.43 176.53 0)
+		(at 64.77 198.12 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -29033,7 +27524,7 @@
 		(dnp no)
 		(uuid "3f10d38b-f2aa-4215-ae02-1f7811192597")
 		(property "Reference" "#PWR0144"
-			(at -138.43 185.42 0)
+			(at 64.77 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29042,7 +27533,7 @@
 			)
 		)
 		(property "Value" "GND_ISO_15V"
-			(at -145.796 176.53 0)
+			(at 57.404 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29050,7 +27541,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -138.43 176.53 0)
+			(at 64.77 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29059,7 +27550,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -138.43 176.53 0)
+			(at 64.77 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29068,7 +27559,7 @@
 			)
 		)
 		(property "Description" "Power symbol GND_ISO_15V, isolated ground"
-			(at -138.43 182.58 0)
+			(at 64.77 204.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29298,208 +27789,6 @@
 		)
 	)
 	(symbol
-		(lib_id "semiconductor:RK7002BM")
-		(at 73.66 372.11 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46e1cd11-c8e0-47b3-a1fb-6430b9e7a891")
-		(property "Reference" "Q22"
-			(at 69.85 372.8084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RK7002BM"
-			(at 66.04 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "semiconductor:SOT-23-3-INV_P0.95_2.92x1.3x1.12"
-			(at 66.04 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rk7002bmt116-e.pdf"
-			(at 66.04 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "MOSFET N-Channel Small Signal 60V 250mA -55°C 150°C SMD SOT23-3-INV"
-			(at 66.04 364.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description pt-br" "MOSFET Canal N Pequenos Sinais 60V 250mA -55°C 150°C SMD SOT23-3-INV"
-			(at 66.04 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Rohm Semiconductor"
-			(at 66.04 369.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RK7002BMT116"
-			(at 66.04 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "SAP Code" "TRNF-XXXX"
-			(at 66.04 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "PLM Code" "TBD"
-			(at 66.04 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "RoHS Compliance" "Yes"
-			(at 66.04 379.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "NCM" "8541.29.10"
-			(at 66.04 382.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Lead Time (W)" "LT"
-			(at 66.04 384.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Maturity Level" "P/V/F"
-			(at 66.04 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Criticality" "C/S/G"
-			(at 66.04 389.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Created by" "Vinicius Mota 26/10/2023"
-			(at 66.04 392.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Reviewed by" "Marcelo Felix 14/11/2023"
-			(at 66.04 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "7e45e371-d8d0-47c1-a846-f2211c0571b8")
-		)
-		(pin "2"
-			(uuid "434c54d3-81fc-4477-88c3-76dd798caa4e")
-		)
-		(pin "1"
-			(uuid "e41ff47e-23f9-4890-ac22-a72454d79ae7")
-		)
-		(instances
-			(project ""
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/dea657e5-81fd-406f-8fc5-8ab717a840d3"
-					(reference "Q24")
-					(unit 1)
-				)
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/edc20464-f4b8-4832-b891-8da6c69fab31"
-					(reference "Q22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "staging:GND_ISO_15V")
 		(at 92.71 60.96 0)
 		(mirror y)
@@ -29570,26 +27859,26 @@
 		)
 	)
 	(symbol
-		(lib_id "resistor:1M-0402_01")
-		(at 73.66 391.16 90)
+		(lib_id "capacitor:100nF-0402_01")
+		(at 232.41 351.79 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "495c5d78-121a-4b97-90e2-07614d3d1efd")
-		(property "Reference" "R221"
-			(at 76.2 389.8899 90)
+		(uuid "48ef7f7f-d560-41c4-9482-5fef4ac5676f")
+		(property "Reference" "C92"
+			(at 235.458 350.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "1M-0402_01"
-			(at 58.42 378.46 0)
+		(property "Value" "100nF-0402_01"
+			(at 246.38 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29598,8 +27887,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "passive:Resistor_0402"
-			(at 60.96 378.46 0)
+		(property "Footprint" "passive:Capacitor_0402"
+			(at 246.38 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29608,8 +27897,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_10.pdf"
-			(at 63.5 378.46 0)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
+			(at 246.38 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29618,8 +27907,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 1M 1% 62.5mW -55°C 155°C SMD 0402"
-			(at 66.04 378.46 0)
+		(property "Description" "Capacitor MLCC 100nF 5% 25V X7R -55°C 125°C SMD 0402"
+			(at 246.38 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29628,8 +27917,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description pt-br" "Resistor 1M 1% 62.5mW -55°C 155°C SMD 0402"
-			(at 68.58 378.46 0)
+		(property "Description pt-br" "Capacitor MLCC 100nF 5% 25V X7R -55°C 125°C SMD 0402"
+			(at 246.38 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29638,8 +27927,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yageo"
-			(at 71.12 378.46 0)
+		(property "Manufacturer" "Kyocera AVX;Kyocera AVX"
+			(at 246.38 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29648,8 +27937,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "AC0402FR-071ML"
-			(at 73.66 378.46 0)
+		(property "Part Number" "04023C104JAT2A;KGM05AR71E104JH"
+			(at 246.38 354.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29658,8 +27947,8 @@
 				(hide yes)
 			)
 		)
-		(property "SAP Code" "RESG-0046"
-			(at 76.2 378.46 0)
+		(property "SAP Code" "CAPC-0023"
+			(at 246.38 356.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29668,8 +27957,8 @@
 				(hide yes)
 			)
 		)
-		(property "PLM Code" "PRPTRAC00001266"
-			(at 78.74 378.46 0)
+		(property "PLM Code" "PRPTRAC00000598"
+			(at 246.38 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29679,7 +27968,7 @@
 			)
 		)
 		(property "RoHS Compliance" "Yes"
-			(at 81.28 378.46 0)
+			(at 246.38 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29688,8 +27977,8 @@
 				(hide yes)
 			)
 		)
-		(property "NCM" "8533.21.20"
-			(at 83.82 378.46 0)
+		(property "NCM" "8532.24.10"
+			(at 246.38 364.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29699,7 +27988,7 @@
 			)
 		)
 		(property "Lead Time (W)" "LT"
-			(at 86.36 378.46 0)
+			(at 246.38 367.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29709,7 +27998,7 @@
 			)
 		)
 		(property "Maturity Level" "P/V/F"
-			(at 88.9 378.46 0)
+			(at 246.38 369.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29719,7 +28008,7 @@
 			)
 		)
 		(property "Criticality" "C/S/G"
-			(at 91.44 378.46 0)
+			(at 246.38 372.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29728,8 +28017,8 @@
 				(hide yes)
 			)
 		)
-		(property "Created by" "*"
-			(at 93.98 378.46 0)
+		(property "Created by" "NA"
+			(at 246.38 374.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29738,8 +28027,8 @@
 				(hide yes)
 			)
 		)
-		(property "Reviewed by" "*"
-			(at 96.52 378.46 0)
+		(property "Reviewed by" "Rafaella Monti 18/10/2023"
+			(at 246.38 377.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29748,29 +28037,29 @@
 				(hide yes)
 			)
 		)
-		(property "Friendly Name" "1M"
-			(at 76.2 392.4299 90)
+		(property "Friendly Name" "100nF"
+			(at 235.458 353.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
-		)
-		(pin "1"
-			(uuid "c92de03a-da03-427f-a690-2debe66062a1")
 		)
 		(pin "2"
-			(uuid "8d9cfbf7-18d3-4421-b54e-295656863247")
+			(uuid "f164c646-17b8-4393-90f8-f4393d4cc7ba")
+		)
+		(pin "1"
+			(uuid "664e745a-546f-4862-8e3f-ce98940468f2")
 		)
 		(instances
 			(project "powerboard"
 				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/dea657e5-81fd-406f-8fc5-8ab717a840d3"
-					(reference "R222")
+					(reference "C113")
 					(unit 1)
 				)
 				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/edc20464-f4b8-4832-b891-8da6c69fab31"
-					(reference "R221")
+					(reference "C92")
 					(unit 1)
 				)
 			)
@@ -30045,75 +28334,6 @@
 				)
 				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/edc20464-f4b8-4832-b891-8da6c69fab31"
 					(reference "R59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "staging:GND_ISO_15V")
-		(at 29.21 394.97 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a1e7c04-5633-4708-9152-c3f9c0f282ee")
-		(property "Reference" "#PWR0421"
-			(at 29.21 403.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_ISO_15V"
-			(at 21.844 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol GND_ISO_15V, isolated ground"
-			(at 29.21 401.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b0bfefd-f670-4d95-bcf9-4470f2e37392")
-		)
-		(instances
-			(project "powerboard"
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/dea657e5-81fd-406f-8fc5-8ab717a840d3"
-					(reference "#PWR0422")
-					(unit 1)
-				)
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/edc20464-f4b8-4832-b891-8da6c69fab31"
-					(reference "#PWR0421")
 					(unit 1)
 				)
 			)
@@ -31249,6 +29469,214 @@
 		)
 	)
 	(symbol
+		(lib_id "resistor:1k-0402_01")
+		(at 217.17 80.01 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a104365-0347-48e6-888c-2d544981c2e1")
+		(property "Reference" "R241"
+			(at 219.71 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k-0402_01"
+			(at 232.41 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "passive:Resistor_0402"
+			(at 229.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/1263"
+			(at 227.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 1k 1% 100mW -55°C 155°C SMD 0402"
+			(at 224.79 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description pt-br" "Resistor 1k 1% 100mW -55°C 155°C SMD 0402"
+			(at 222.25 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 219.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "ERJ-2RKF1001X"
+			(at 217.17 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SAP Code" "RESG-0007"
+			(at 214.63 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PLM Code" "PRPTRAC00001226"
+			(at 212.09 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliance" "Yes"
+			(at 209.55 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "NCM" "8533.21.20"
+			(at 207.01 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Lead Time (W)" "LT"
+			(at 204.47 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Maturity Level" "P/V/F"
+			(at 201.93 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Criticality" "C/S/G"
+			(at 199.39 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Created by" "NA"
+			(at 196.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Reviewed by" "Rafaella Monti 18/10/2023"
+			(at 194.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Friendly Name" "1k"
+			(at 219.71 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "5c78b1b5-6551-4162-b427-a46feafb5cc4")
+		)
+		(pin "2"
+			(uuid "5686396e-d65b-4a0d-adec-a39be4bdd912")
+		)
+		(instances
+			(project ""
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/dea657e5-81fd-406f-8fc5-8ab717a840d3"
+					(reference "R242")
+					(unit 1)
+				)
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/edc20464-f4b8-4832-b891-8da6c69fab31"
+					(reference "R241")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "semiconductor:MMBT2907A")
 		(at 245.11 259.08 0)
 		(unit 1)
@@ -32140,213 +30568,6 @@
 		)
 	)
 	(symbol
-		(lib_id "capacitor:1uF-0402_01")
-		(at 232.41 264.16 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82e8572b-a95f-4b9a-a510-c73702d0ba28")
-		(property "Reference" "C214"
-			(at 236.22 265.4301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF-0402_01"
-			(at 246.38 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "passive:Capacitor_0402"
-			(at 246.38 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/en-us/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R61C105MA12%23"
-			(at 246.38 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor MLCC 1uF 20% 16V X5R -55°C 85°C SMD 0402"
-			(at 246.38 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description pt-br" "Capacitor MLCC 1uF 20% 16V X5R -55°C 85°C SMD 0402"
-			(at 246.38 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 246.38 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "GRM155R61C105MA12"
-			(at 246.38 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "SAP Code" "CAPC-0032"
-			(at 246.38 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "PLM Code" "PRPTRAC00000606"
-			(at 246.38 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "RoHS Compliance" "Yes"
-			(at 246.38 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "NCM" "8532.24.10"
-			(at 246.38 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Lead Time (W)" "LT"
-			(at 246.38 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Maturity Level" "P/V/F"
-			(at 246.38 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Criticality" "C/S/G"
-			(at 246.38 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Created by" "NA"
-			(at 246.38 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Reviewed by" "Rafaella Monti 18/10/2023"
-			(at 246.38 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Friendly Name" "1uF"
-			(at 236.22 262.8901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "63aa020a-2a32-4142-8ee3-085a0f8f4b47")
-		)
-		(pin "2"
-			(uuid "657217bd-f066-4459-a6be-17f15f1b01f4")
-		)
-		(instances
-			(project "powerboard"
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/dea657e5-81fd-406f-8fc5-8ab717a840d3"
-					(reference "C111")
-					(unit 1)
-				)
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/edc20464-f4b8-4832-b891-8da6c69fab31"
-					(reference "C214")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "resistor:0R-0402_01")
 		(at 468.63 109.22 0)
 		(mirror x)
@@ -33032,213 +31253,6 @@
 		)
 	)
 	(symbol
-		(lib_id "resistor:715k-0402_01")
-		(at 116.84 387.35 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8bd2f76b-4712-47c4-97b1-aa03482589c5")
-		(property "Reference" "R231"
-			(at 119.38 386.0799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "715k-0402_01"
-			(at 101.6 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "passive:Resistor_0402"
-			(at 104.14 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/1263"
-			(at 106.68 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor 715k 1% 100mW -55°C 155°C SMD 0402"
-			(at 109.22 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description pt-br" "Resistor 715k 1% 100mW -55°C 155°C SMD 0402"
-			(at 111.76 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 114.3 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "ERJ-2RKF7153X"
-			(at 116.84 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "SAP Code" "RESG-XXXX"
-			(at 119.38 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "PLM Code" "TBD"
-			(at 121.92 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "RoHS Compliance" "Yes"
-			(at 124.46 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "NCM" "8533.21.20"
-			(at 127 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Lead Time (W)" "LT"
-			(at 129.54 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Maturity Level" "P/V/F"
-			(at 132.08 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Criticality" "C/S/G"
-			(at 134.62 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Created by" "Willian Loschner 16/10/2023"
-			(at 137.16 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Reviewed by" "Rafaella Monti 16/10/2023"
-			(at 139.7 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Friendly Name" "715k"
-			(at 119.38 388.6199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "e474f1dd-e40b-4679-9166-d33bfb61b1fd")
-		)
-		(pin "2"
-			(uuid "6cc97a06-d05b-4136-bf72-8400fbc61d88")
-		)
-		(instances
-			(project ""
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/dea657e5-81fd-406f-8fc5-8ab717a840d3"
-					(reference "R232")
-					(unit 1)
-				)
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/edc20464-f4b8-4832-b891-8da6c69fab31"
-					(reference "R231")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "staging:GND_ISO_15V")
 		(at 78.74 340.36 0)
 		(unit 1)
@@ -33655,23 +31669,26 @@
 	)
 	(symbol
 		(lib_id "resistor:1k-0402_01")
-		(at 86.36 379.73 0)
+		(at 217.17 185.42 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a3bad4b6-3416-4366-af30-eb69529d0634")
-		(property "Reference" "R227"
-			(at 86.36 377.19 0)
+		(fields_autoplaced yes)
+		(uuid "a4617c88-6947-4931-9a6c-71a66894de66")
+		(property "Reference" "R243"
+			(at 219.71 184.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1k-0402_01"
-			(at 99.06 364.49 0)
+			(at 232.41 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33681,7 +31698,7 @@
 			)
 		)
 		(property "Footprint" "passive:Resistor_0402"
-			(at 99.06 367.03 0)
+			(at 229.87 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33691,7 +31708,7 @@
 			)
 		)
 		(property "Datasheet" "https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/1263"
-			(at 99.06 369.57 0)
+			(at 227.33 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33701,7 +31718,7 @@
 			)
 		)
 		(property "Description" "Resistor 1k 1% 100mW -55°C 155°C SMD 0402"
-			(at 99.06 372.11 0)
+			(at 224.79 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33711,7 +31728,7 @@
 			)
 		)
 		(property "Description pt-br" "Resistor 1k 1% 100mW -55°C 155°C SMD 0402"
-			(at 99.06 374.65 0)
+			(at 222.25 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33721,7 +31738,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 99.06 377.19 0)
+			(at 219.71 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33731,7 +31748,7 @@
 			)
 		)
 		(property "Part Number" "ERJ-2RKF1001X"
-			(at 99.06 379.73 0)
+			(at 217.17 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33741,7 +31758,7 @@
 			)
 		)
 		(property "SAP Code" "RESG-0007"
-			(at 99.06 382.27 0)
+			(at 214.63 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33751,7 +31768,7 @@
 			)
 		)
 		(property "PLM Code" "PRPTRAC00001226"
-			(at 99.06 384.81 0)
+			(at 212.09 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33761,7 +31778,7 @@
 			)
 		)
 		(property "RoHS Compliance" "Yes"
-			(at 99.06 387.35 0)
+			(at 209.55 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33771,7 +31788,7 @@
 			)
 		)
 		(property "NCM" "8533.21.20"
-			(at 99.06 389.89 0)
+			(at 207.01 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33781,7 +31798,7 @@
 			)
 		)
 		(property "Lead Time (W)" "LT"
-			(at 99.06 392.43 0)
+			(at 204.47 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33791,7 +31808,7 @@
 			)
 		)
 		(property "Maturity Level" "P/V/F"
-			(at 99.06 394.97 0)
+			(at 201.93 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33801,7 +31818,7 @@
 			)
 		)
 		(property "Criticality" "C/S/G"
-			(at 99.06 397.51 0)
+			(at 199.39 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33811,7 +31828,7 @@
 			)
 		)
 		(property "Created by" "NA"
-			(at 99.06 400.05 0)
+			(at 196.85 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33821,7 +31838,7 @@
 			)
 		)
 		(property "Reviewed by" "Rafaella Monti 18/10/2023"
-			(at 99.06 402.59 0)
+			(at 194.31 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33831,27 +31848,28 @@
 			)
 		)
 		(property "Friendly Name" "1k"
-			(at 86.36 382.27 0)
+			(at 219.71 186.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "1"
-			(uuid "517a5e25-3a6f-4e68-a5eb-d969247cee1c")
+			(uuid "cf7d1627-0f41-45d4-a13a-3331a710a5bc")
 		)
 		(pin "2"
-			(uuid "91a9e934-e062-4c5a-9b46-5f4aed933c9d")
+			(uuid "c5979117-4170-4381-aab7-4b5f864b7d46")
 		)
 		(instances
-			(project ""
+			(project "powerboard"
 				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/dea657e5-81fd-406f-8fc5-8ab717a840d3"
-					(reference "R228")
+					(reference "R244")
 					(unit 1)
 				)
 				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/edc20464-f4b8-4832-b891-8da6c69fab31"
-					(reference "R227")
+					(reference "R243")
 					(unit 1)
 				)
 			)
@@ -33928,77 +31946,8 @@
 		)
 	)
 	(symbol
-		(lib_id "staging:GND_ISO_15V")
-		(at 73.66 402.59 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "a6439df2-43cf-4d11-80a6-98d11b86bfc6")
-		(property "Reference" "#PWR0419"
-			(at 73.66 411.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_ISO_15V"
-			(at 66.294 402.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 402.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 402.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol GND_ISO_15V, isolated ground"
-			(at 73.66 408.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c9d87fe-a92d-4ccf-aa08-e136a769b70a")
-		)
-		(instances
-			(project "powerboard"
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/dea657e5-81fd-406f-8fc5-8ab717a840d3"
-					(reference "#PWR0420")
-					(unit 1)
-				)
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/edc20464-f4b8-4832-b891-8da6c69fab31"
-					(reference "#PWR0419")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "staging:VDD_ISO_3")
-		(at -138.43 142.24 0)
+		(at 64.77 163.83 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -34007,7 +31956,7 @@
 		(fields_autoplaced yes)
 		(uuid "a67ae345-062d-4270-9cd0-9b96fbbb3103")
 		(property "Reference" "#PWR0143"
-			(at -138.43 147.32 0)
+			(at 64.77 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34016,7 +31965,7 @@
 			)
 		)
 		(property "Value" "VDD_ISO_3"
-			(at -138.43 137.16 0)
+			(at 64.77 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34024,7 +31973,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -138.43 142.24 0)
+			(at 64.77 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34033,7 +31982,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -138.43 142.24 0)
+			(at 64.77 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34042,7 +31991,7 @@
 			)
 		)
 		(property "Description" "Power symbol VDD_ISO_3"
-			(at -138.43 144.78 0)
+			(at 64.77 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34632,208 +32581,6 @@
 		)
 	)
 	(symbol
-		(lib_id "semiconductor:RK7002BM")
-		(at 116.84 372.11 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5c40dcc-2f99-4ed0-90ad-07860e2c0ec9")
-		(property "Reference" "Q27"
-			(at 113.03 372.8084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RK7002BM"
-			(at 109.22 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "semiconductor:SOT-23-3-INV_P0.95_2.92x1.3x1.12"
-			(at 109.22 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rk7002bmt116-e.pdf"
-			(at 109.22 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "MOSFET N-Channel Small Signal 60V 250mA -55°C 150°C SMD SOT23-3-INV"
-			(at 109.22 364.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description pt-br" "MOSFET Canal N Pequenos Sinais 60V 250mA -55°C 150°C SMD SOT23-3-INV"
-			(at 109.22 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Rohm Semiconductor"
-			(at 109.22 369.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RK7002BMT116"
-			(at 109.22 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "SAP Code" "TRNF-XXXX"
-			(at 109.22 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "PLM Code" "TBD"
-			(at 109.22 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "RoHS Compliance" "Yes"
-			(at 109.22 379.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "NCM" "8541.29.10"
-			(at 109.22 382.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Lead Time (W)" "LT"
-			(at 109.22 384.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Maturity Level" "P/V/F"
-			(at 109.22 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Criticality" "C/S/G"
-			(at 109.22 389.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Created by" "Vinicius Mota 26/10/2023"
-			(at 109.22 392.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Reviewed by" "Marcelo Felix 14/11/2023"
-			(at 109.22 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b3c57e45-09a4-41ad-8467-b7ff6e92eb03")
-		)
-		(pin "2"
-			(uuid "d359cf58-0fb8-4938-86ed-b84a1e4061d6")
-		)
-		(pin "1"
-			(uuid "111cd25a-ed38-4807-858d-827a6c76264a")
-		)
-		(instances
-			(project "powerboard"
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/dea657e5-81fd-406f-8fc5-8ab717a840d3"
-					(reference "Q28")
-					(unit 1)
-				)
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/edc20464-f4b8-4832-b891-8da6c69fab31"
-					(reference "Q27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "staging:TPS1HTC30AQPWPRQ1")
 		(at 240.03 176.53 0)
 		(unit 1)
@@ -35387,7 +33134,7 @@
 	)
 	(symbol
 		(lib_id "capacitor:100nF-0402_01")
-		(at 283.718 368.554 0)
+		(at 283.21 368.3 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -35396,7 +33143,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9c6440b-49b6-4972-816e-14b4d0723b1d")
 		(property "Reference" "C219"
-			(at 286.766 367.2839 0)
+			(at 286.258 367.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35405,7 +33152,7 @@
 			)
 		)
 		(property "Value" "100nF-0402_01"
-			(at 297.688 355.854 0)
+			(at 297.18 355.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35415,7 +33162,7 @@
 			)
 		)
 		(property "Footprint" "passive:Capacitor_0402"
-			(at 297.688 358.394 0)
+			(at 297.18 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35425,7 +33172,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
-			(at 297.688 360.934 0)
+			(at 297.18 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35435,7 +33182,7 @@
 			)
 		)
 		(property "Description" "Capacitor MLCC 100nF 5% 25V X7R -55°C 125°C SMD 0402"
-			(at 297.688 363.474 0)
+			(at 297.18 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35445,7 +33192,7 @@
 			)
 		)
 		(property "Description pt-br" "Capacitor MLCC 100nF 5% 25V X7R -55°C 125°C SMD 0402"
-			(at 297.688 366.014 0)
+			(at 297.18 365.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35455,7 +33202,7 @@
 			)
 		)
 		(property "Manufacturer" "Kyocera AVX;Kyocera AVX"
-			(at 297.688 368.554 0)
+			(at 297.18 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35465,7 +33212,7 @@
 			)
 		)
 		(property "Part Number" "04023C104JAT2A;KGM05AR71E104JH"
-			(at 297.688 371.094 0)
+			(at 297.18 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35475,7 +33222,7 @@
 			)
 		)
 		(property "SAP Code" "CAPC-0023"
-			(at 297.688 373.634 0)
+			(at 297.18 373.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35485,7 +33232,7 @@
 			)
 		)
 		(property "PLM Code" "PRPTRAC00000598"
-			(at 297.688 376.174 0)
+			(at 297.18 375.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35495,7 +33242,7 @@
 			)
 		)
 		(property "RoHS Compliance" "Yes"
-			(at 297.688 378.714 0)
+			(at 297.18 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35505,7 +33252,7 @@
 			)
 		)
 		(property "NCM" "8532.24.10"
-			(at 297.688 381.254 0)
+			(at 297.18 381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35515,7 +33262,7 @@
 			)
 		)
 		(property "Lead Time (W)" "LT"
-			(at 297.688 383.794 0)
+			(at 297.18 383.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35525,7 +33272,7 @@
 			)
 		)
 		(property "Maturity Level" "P/V/F"
-			(at 297.688 386.334 0)
+			(at 297.18 386.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35535,7 +33282,7 @@
 			)
 		)
 		(property "Criticality" "C/S/G"
-			(at 297.688 388.874 0)
+			(at 297.18 388.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35545,7 +33292,7 @@
 			)
 		)
 		(property "Created by" "NA"
-			(at 297.688 391.414 0)
+			(at 297.18 391.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35555,7 +33302,7 @@
 			)
 		)
 		(property "Reviewed by" "Rafaella Monti 18/10/2023"
-			(at 297.688 393.954 0)
+			(at 297.18 393.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35565,7 +33312,7 @@
 			)
 		)
 		(property "Friendly Name" "100nF"
-			(at 286.766 369.8239 0)
+			(at 286.258 369.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36096,212 +33843,6 @@
 		)
 	)
 	(symbol
-		(lib_id "capacitor:1uF-0402_01")
-		(at 232.41 351.79 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bfd9b2ce-5e8e-4cba-9a1f-2e35645b4e23")
-		(property "Reference" "C92"
-			(at 236.22 350.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF-0402_01"
-			(at 246.38 339.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "passive:Capacitor_0402"
-			(at 246.38 341.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/en-us/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM155R61C105MA12%23"
-			(at 246.38 344.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor MLCC 1uF 20% 16V X5R -55°C 85°C SMD 0402"
-			(at 246.38 346.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description pt-br" "Capacitor MLCC 1uF 20% 16V X5R -55°C 85°C SMD 0402"
-			(at 246.38 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 246.38 351.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "GRM155R61C105MA12"
-			(at 246.38 354.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "SAP Code" "CAPC-0032"
-			(at 246.38 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "PLM Code" "PRPTRAC00000606"
-			(at 246.38 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "RoHS Compliance" "Yes"
-			(at 246.38 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "NCM" "8532.24.10"
-			(at 246.38 364.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Lead Time (W)" "LT"
-			(at 246.38 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Maturity Level" "P/V/F"
-			(at 246.38 369.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Criticality" "C/S/G"
-			(at 246.38 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Created by" "NA"
-			(at 246.38 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Reviewed by" "Rafaella Monti 18/10/2023"
-			(at 246.38 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Friendly Name" "1uF"
-			(at 236.22 353.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "69908bfe-6b23-429e-b59a-84a84525b8e2")
-		)
-		(pin "2"
-			(uuid "6c2aa68f-e307-4535-8778-db4331cdcdbb")
-		)
-		(instances
-			(project "powerboard"
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/dea657e5-81fd-406f-8fc5-8ab717a840d3"
-					(reference "C113")
-					(unit 1)
-				)
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/edc20464-f4b8-4832-b891-8da6c69fab31"
-					(reference "C92")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "staging:GND_ISO_15V")
 		(at 267.97 91.44 0)
 		(unit 1)
@@ -36592,75 +34133,6 @@
 				)
 				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/edc20464-f4b8-4832-b891-8da6c69fab31"
 					(reference "U37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "staging:GND_ISO_15V")
-		(at 116.84 394.97 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "c8721d31-4e89-4f34-a61e-57549aeeff26")
-		(property "Reference" "#PWR0423"
-			(at 116.84 403.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_ISO_15V"
-			(at 109.474 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol GND_ISO_15V, isolated ground"
-			(at 116.84 401.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "26710e6b-8848-4805-99e7-a316141296f5")
-		)
-		(instances
-			(project "powerboard"
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/dea657e5-81fd-406f-8fc5-8ab717a840d3"
-					(reference "#PWR0424")
-					(unit 1)
-				)
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/edc20464-f4b8-4832-b891-8da6c69fab31"
-					(reference "#PWR0423")
 					(unit 1)
 				)
 			)
@@ -39156,208 +36628,6 @@
 		)
 	)
 	(symbol
-		(lib_id "semiconductor:RK7002BM")
-		(at 29.21 372.11 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e102ed82-0690-4cce-b26c-a19e4356e455")
-		(property "Reference" "Q25"
-			(at 25.4 372.8084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RK7002BM"
-			(at 21.59 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "semiconductor:SOT-23-3-INV_P0.95_2.92x1.3x1.12"
-			(at 21.59 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rk7002bmt116-e.pdf"
-			(at 21.59 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "MOSFET N-Channel Small Signal 60V 250mA -55°C 150°C SMD SOT23-3-INV"
-			(at 21.59 364.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description pt-br" "MOSFET Canal N Pequenos Sinais 60V 250mA -55°C 150°C SMD SOT23-3-INV"
-			(at 21.59 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Rohm Semiconductor"
-			(at 21.59 369.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RK7002BMT116"
-			(at 21.59 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "SAP Code" "TRNF-XXXX"
-			(at 21.59 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "PLM Code" "TBD"
-			(at 21.59 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "RoHS Compliance" "Yes"
-			(at 21.59 379.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "NCM" "8541.29.10"
-			(at 21.59 382.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Lead Time (W)" "LT"
-			(at 21.59 384.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Maturity Level" "P/V/F"
-			(at 21.59 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Criticality" "C/S/G"
-			(at 21.59 389.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Created by" "Vinicius Mota 26/10/2023"
-			(at 21.59 392.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Reviewed by" "Marcelo Felix 14/11/2023"
-			(at 21.59 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "529eddd7-feb9-4a2d-8e5c-ea67c22c3174")
-		)
-		(pin "2"
-			(uuid "83fda37f-e048-4214-9c62-cf0ada195c04")
-		)
-		(pin "1"
-			(uuid "d7bb7e38-420d-4675-8e1d-fd363191379e")
-		)
-		(instances
-			(project "powerboard"
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/dea657e5-81fd-406f-8fc5-8ab717a840d3"
-					(reference "Q26")
-					(unit 1)
-				)
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/edc20464-f4b8-4832-b891-8da6c69fab31"
-					(reference "Q25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "resistor:0R-0402_01")
 		(at 518.16 101.6 0)
 		(mirror x)
@@ -39633,210 +36903,6 @@
 		)
 	)
 	(symbol
-		(lib_id "resistor:1k-0402_01")
-		(at 130.81 379.73 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e9b5d7f2-1d72-4563-b3a3-33009bfeed3d")
-		(property "Reference" "R233"
-			(at 130.81 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k-0402_01"
-			(at 143.51 364.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "passive:Resistor_0402"
-			(at 143.51 367.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/1263"
-			(at 143.51 369.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor 1k 1% 100mW -55°C 155°C SMD 0402"
-			(at 143.51 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description pt-br" "Resistor 1k 1% 100mW -55°C 155°C SMD 0402"
-			(at 143.51 374.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 143.51 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "ERJ-2RKF1001X"
-			(at 143.51 379.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "SAP Code" "RESG-0007"
-			(at 143.51 382.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "PLM Code" "PRPTRAC00001226"
-			(at 143.51 384.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "RoHS Compliance" "Yes"
-			(at 143.51 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "NCM" "8533.21.20"
-			(at 143.51 389.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Lead Time (W)" "LT"
-			(at 143.51 392.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Maturity Level" "P/V/F"
-			(at 143.51 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Criticality" "C/S/G"
-			(at 143.51 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Created by" "NA"
-			(at 143.51 400.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Reviewed by" "Rafaella Monti 18/10/2023"
-			(at 143.51 402.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Friendly Name" "1k"
-			(at 130.81 382.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5dd19d98-f09d-4664-a1c3-4ead73f3fe72")
-		)
-		(pin "2"
-			(uuid "af6bac0f-e488-4df0-9c81-83da6289e63f")
-		)
-		(instances
-			(project "powerboard"
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/dea657e5-81fd-406f-8fc5-8ab717a840d3"
-					(reference "R236")
-					(unit 1)
-				)
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/edc20464-f4b8-4832-b891-8da6c69fab31"
-					(reference "R233")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "semiconductor:MMBT2907A")
 		(at 245.11 346.71 0)
 		(unit 1)
@@ -40038,215 +37104,8 @@
 		)
 	)
 	(symbol
-		(lib_id "resistor:499k-0402_01")
-		(at 73.66 398.78 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eced1e2b-64b1-497a-ab4b-529a4a5e8322")
-		(property "Reference" "R217"
-			(at 76.2 397.5099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "499k-0402_01"
-			(at 58.42 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "passive:Resistor_0402"
-			(at 60.96 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 63.5 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor 499k 1% 62.5mW -55°C 155°C SMD 0402"
-			(at 66.04 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description pt-br" "Resistor 499k 1% 62.5mW -55°C 155°C SMD 0402"
-			(at 68.58 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 71.12 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RC0402FR-07499KL"
-			(at 73.66 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "SAP Code" "RESG-0047"
-			(at 76.2 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "PLM Code" "PRPTRAC00001267"
-			(at 78.74 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "RoHS Compliance" "Yes"
-			(at 81.28 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "NCM" "8533.21.20"
-			(at 83.82 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Lead Time (W)" "LT"
-			(at 86.36 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Maturity Level" "P/V/F"
-			(at 88.9 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Criticality" "C/S/G"
-			(at 91.44 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Created by" "*"
-			(at 93.98 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Reviewed by" "*"
-			(at 96.52 386.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Friendly Name" "499k"
-			(at 76.2 400.0499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "6d905947-8e2d-41c7-aaaa-84b151a377a4")
-		)
-		(pin "2"
-			(uuid "4d19a145-c910-42dd-b5c0-c95bb05755ff")
-		)
-		(instances
-			(project "powerboard"
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/dea657e5-81fd-406f-8fc5-8ab717a840d3"
-					(reference "R218")
-					(unit 1)
-				)
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/edc20464-f4b8-4832-b891-8da6c69fab31"
-					(reference "R217")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "resistor:1k-0402_01")
-		(at 219.456 340.106 270)
+		(at 219.71 340.36 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -40255,7 +37114,7 @@
 		(dnp no)
 		(uuid "ee638849-3688-4418-8bd9-22f4d735965f")
 		(property "Reference" "R199"
-			(at 217.17 338.8359 90)
+			(at 217.424 339.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40264,7 +37123,7 @@
 			)
 		)
 		(property "Value" "1k-0402_01"
-			(at 234.696 327.406 0)
+			(at 234.95 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40274,7 +37133,7 @@
 			)
 		)
 		(property "Footprint" "passive:Resistor_0402"
-			(at 232.156 327.406 0)
+			(at 232.41 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40284,7 +37143,7 @@
 			)
 		)
 		(property "Datasheet" "https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/1263"
-			(at 229.616 327.406 0)
+			(at 229.87 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40294,7 +37153,7 @@
 			)
 		)
 		(property "Description" "Resistor 1k 1% 100mW -55°C 155°C SMD 0402"
-			(at 227.076 327.406 0)
+			(at 227.33 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40304,7 +37163,7 @@
 			)
 		)
 		(property "Description pt-br" "Resistor 1k 1% 100mW -55°C 155°C SMD 0402"
-			(at 224.536 327.406 0)
+			(at 224.79 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40314,7 +37173,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 221.996 327.406 0)
+			(at 222.25 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40324,7 +37183,7 @@
 			)
 		)
 		(property "Part Number" "ERJ-2RKF1001X"
-			(at 219.456 327.406 0)
+			(at 219.71 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40334,7 +37193,7 @@
 			)
 		)
 		(property "SAP Code" "RESG-0007"
-			(at 216.916 327.406 0)
+			(at 217.17 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40344,7 +37203,7 @@
 			)
 		)
 		(property "PLM Code" "PRPTRAC00001226"
-			(at 214.376 327.406 0)
+			(at 214.63 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40354,7 +37213,7 @@
 			)
 		)
 		(property "RoHS Compliance" "Yes"
-			(at 211.836 327.406 0)
+			(at 212.09 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40364,7 +37223,7 @@
 			)
 		)
 		(property "NCM" "8533.21.20"
-			(at 209.296 327.406 0)
+			(at 209.55 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40374,7 +37233,7 @@
 			)
 		)
 		(property "Lead Time (W)" "LT"
-			(at 206.756 327.406 0)
+			(at 207.01 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40384,7 +37243,7 @@
 			)
 		)
 		(property "Maturity Level" "P/V/F"
-			(at 204.216 327.406 0)
+			(at 204.47 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40394,7 +37253,7 @@
 			)
 		)
 		(property "Criticality" "C/S/G"
-			(at 201.676 327.406 0)
+			(at 201.93 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40404,7 +37263,7 @@
 			)
 		)
 		(property "Created by" "NA"
-			(at 199.136 327.406 0)
+			(at 199.39 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40414,7 +37273,7 @@
 			)
 		)
 		(property "Reviewed by" "Rafaella Monti 18/10/2023"
-			(at 196.596 327.406 0)
+			(at 196.85 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40424,7 +37283,7 @@
 			)
 		)
 		(property "Friendly Name" "1k"
-			(at 217.17 341.3759 90)
+			(at 217.424 341.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40730,7 +37589,7 @@
 	)
 	(symbol
 		(lib_id "staging:GND_ISO_15V")
-		(at -101.6 176.53 0)
+		(at 101.6 198.12 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -40738,7 +37597,7 @@
 		(dnp no)
 		(uuid "f16276a1-eff0-431f-ab28-160fb9c9974c")
 		(property "Reference" "#PWR0145"
-			(at -101.6 185.42 0)
+			(at 101.6 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40747,7 +37606,7 @@
 			)
 		)
 		(property "Value" "GND_ISO_15V"
-			(at -93.472 176.53 0)
+			(at 109.728 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40755,7 +37614,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -101.6 176.53 0)
+			(at 101.6 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40764,7 +37623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -101.6 176.53 0)
+			(at 101.6 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40773,7 +37632,7 @@
 			)
 		)
 		(property "Description" "Power symbol GND_ISO_15V, isolated ground"
-			(at -101.6 182.58 0)
+			(at 101.6 204.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40792,213 +37651,6 @@
 				)
 				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/edc20464-f4b8-4832-b891-8da6c69fab31"
 					(reference "#PWR0145")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "resistor:1M-0402_01")
-		(at 29.21 383.54 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1f068e4-df0a-46a4-95cc-0dc1f05b6a35")
-		(property "Reference" "R219"
-			(at 31.75 382.2699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1M-0402_01"
-			(at 13.97 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "passive:Resistor_0402"
-			(at 16.51 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_10.pdf"
-			(at 19.05 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor 1M 1% 62.5mW -55°C 155°C SMD 0402"
-			(at 21.59 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description pt-br" "Resistor 1M 1% 62.5mW -55°C 155°C SMD 0402"
-			(at 24.13 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 26.67 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "AC0402FR-071ML"
-			(at 29.21 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "SAP Code" "RESG-0046"
-			(at 31.75 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "PLM Code" "PRPTRAC00001266"
-			(at 34.29 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "RoHS Compliance" "Yes"
-			(at 36.83 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "NCM" "8533.21.20"
-			(at 39.37 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Lead Time (W)" "LT"
-			(at 41.91 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Maturity Level" "P/V/F"
-			(at 44.45 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Criticality" "C/S/G"
-			(at 46.99 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Created by" "*"
-			(at 49.53 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Reviewed by" "*"
-			(at 52.07 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Friendly Name" "1M"
-			(at 31.75 384.8099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "0a8ba877-dbe8-404b-8111-f3e39f50577e")
-		)
-		(pin "2"
-			(uuid "a8af15d8-ff75-4e84-ae8b-9fa0d3b6185d")
-		)
-		(instances
-			(project ""
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/dea657e5-81fd-406f-8fc5-8ab717a840d3"
-					(reference "R220")
-					(unit 1)
-				)
-				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/edc20464-f4b8-4832-b891-8da6c69fab31"
-					(reference "R219")
 					(unit 1)
 				)
 			)
@@ -41695,7 +38347,7 @@
 	)
 	(symbol
 		(lib_id "resistor:1k-0402_01")
-		(at 220.218 253.492 270)
+		(at 219.71 254 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -41704,7 +38356,7 @@
 		(dnp no)
 		(uuid "fcdd20f8-4da7-49f6-a068-58c1686d2066")
 		(property "Reference" "R197"
-			(at 217.932 252.2219 90)
+			(at 217.424 252.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41713,7 +38365,7 @@
 			)
 		)
 		(property "Value" "1k-0402_01"
-			(at 235.458 240.792 0)
+			(at 234.95 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41723,7 +38375,7 @@
 			)
 		)
 		(property "Footprint" "passive:Resistor_0402"
-			(at 232.918 240.792 0)
+			(at 232.41 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41733,7 +38385,7 @@
 			)
 		)
 		(property "Datasheet" "https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/1263"
-			(at 230.378 240.792 0)
+			(at 229.87 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41743,7 +38395,7 @@
 			)
 		)
 		(property "Description" "Resistor 1k 1% 100mW -55°C 155°C SMD 0402"
-			(at 227.838 240.792 0)
+			(at 227.33 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41753,7 +38405,7 @@
 			)
 		)
 		(property "Description pt-br" "Resistor 1k 1% 100mW -55°C 155°C SMD 0402"
-			(at 225.298 240.792 0)
+			(at 224.79 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41763,7 +38415,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 222.758 240.792 0)
+			(at 222.25 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41773,7 +38425,7 @@
 			)
 		)
 		(property "Part Number" "ERJ-2RKF1001X"
-			(at 220.218 240.792 0)
+			(at 219.71 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41783,7 +38435,7 @@
 			)
 		)
 		(property "SAP Code" "RESG-0007"
-			(at 217.678 240.792 0)
+			(at 217.17 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41793,7 +38445,7 @@
 			)
 		)
 		(property "PLM Code" "PRPTRAC00001226"
-			(at 215.138 240.792 0)
+			(at 214.63 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41803,7 +38455,7 @@
 			)
 		)
 		(property "RoHS Compliance" "Yes"
-			(at 212.598 240.792 0)
+			(at 212.09 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41813,7 +38465,7 @@
 			)
 		)
 		(property "NCM" "8533.21.20"
-			(at 210.058 240.792 0)
+			(at 209.55 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41823,7 +38475,7 @@
 			)
 		)
 		(property "Lead Time (W)" "LT"
-			(at 207.518 240.792 0)
+			(at 207.01 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41833,7 +38485,7 @@
 			)
 		)
 		(property "Maturity Level" "P/V/F"
-			(at 204.978 240.792 0)
+			(at 204.47 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41843,7 +38495,7 @@
 			)
 		)
 		(property "Criticality" "C/S/G"
-			(at 202.438 240.792 0)
+			(at 201.93 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41853,7 +38505,7 @@
 			)
 		)
 		(property "Created by" "NA"
-			(at 199.898 240.792 0)
+			(at 199.39 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41863,7 +38515,7 @@
 			)
 		)
 		(property "Reviewed by" "Rafaella Monti 18/10/2023"
-			(at 197.358 240.792 0)
+			(at 196.85 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41873,7 +38525,7 @@
 			)
 		)
 		(property "Friendly Name" "1k"
-			(at 217.932 254.7619 90)
+			(at 217.424 255.2699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41895,6 +38547,213 @@
 				)
 				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/edc20464-f4b8-4832-b891-8da6c69fab31"
 					(reference "R197")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "capacitor:100nF-0402_01")
+		(at 232.41 264.16 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fecafd12-86c1-4602-9628-12e0e791d83e")
+		(property "Reference" "C111"
+			(at 235.458 262.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF-0402_01"
+			(at 246.38 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "passive:Capacitor_0402"
+			(at 246.38 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
+			(at 246.38 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor MLCC 100nF 5% 25V X7R -55°C 125°C SMD 0402"
+			(at 246.38 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description pt-br" "Capacitor MLCC 100nF 5% 25V X7R -55°C 125°C SMD 0402"
+			(at 246.38 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kyocera AVX;Kyocera AVX"
+			(at 246.38 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "04023C104JAT2A;KGM05AR71E104JH"
+			(at 246.38 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "SAP Code" "CAPC-0023"
+			(at 246.38 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PLM Code" "PRPTRAC00000598"
+			(at 246.38 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "RoHS Compliance" "Yes"
+			(at 246.38 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "NCM" "8532.24.10"
+			(at 246.38 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Lead Time (W)" "LT"
+			(at 246.38 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Maturity Level" "P/V/F"
+			(at 246.38 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Criticality" "C/S/G"
+			(at 246.38 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Created by" "NA"
+			(at 246.38 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Reviewed by" "Rafaella Monti 18/10/2023"
+			(at 246.38 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Friendly Name" "100nF"
+			(at 235.458 265.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "a1b6b1fa-3651-4ad0-8bb3-f471f0fa1121")
+		)
+		(pin "1"
+			(uuid "c8cc8e75-27b7-42b6-986e-071edd8293d5")
+		)
+		(instances
+			(project "powerboard"
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/dea657e5-81fd-406f-8fc5-8ab717a840d3"
+					(reference "C214")
+					(unit 1)
+				)
+				(path "/256e7791-8d9c-4640-8499-06857f48625a/137bff5d-48a2-41f9-87b6-bfef4782e386/edc20464-f4b8-4832-b891-8da6c69fab31"
+					(reference "C111")
 					(unit 1)
 				)
 			)
@@ -42089,7 +38948,7 @@
 		)
 	)
 	(sheet
-		(at 307.34 351.79)
+		(at 312.42 351.79)
 		(size 40.64 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42104,7 +38963,7 @@
 		)
 		(uuid "b74dbb27-b0af-48f9-ba81-f3a4f8ae6821")
 		(property "Sheetname" "Current shunt3"
-			(at 307.34 351.0784 0)
+			(at 312.42 351.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42113,7 +38972,7 @@
 			)
 		)
 		(property "Sheetfile" "current_sensing.kicad_sch"
-			(at 312.674 367.792 0)
+			(at 317.754 367.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42122,7 +38981,7 @@
 			)
 		)
 		(pin "INA+" input
-			(at 307.34 355.6 180)
+			(at 312.42 355.6 180)
 			(uuid "924f250c-fe98-44c7-be1f-452e2639a65d")
 			(effects
 				(font
@@ -42132,7 +38991,7 @@
 			)
 		)
 		(pin "INA-" input
-			(at 307.34 358.14 180)
+			(at 312.42 358.14 180)
 			(uuid "7f4f5943-a890-48f6-be8a-4811c2d473d9")
 			(effects
 				(font
@@ -42142,7 +39001,7 @@
 			)
 		)
 		(pin "INPUT_CURRENT" input
-			(at 307.34 363.22 180)
+			(at 312.42 363.22 180)
 			(uuid "5ae1ca6c-52bd-4b89-82a9-304891a01ac6")
 			(effects
 				(font
@@ -42152,7 +39011,7 @@
 			)
 		)
 		(pin "OUTPUT_CURRENT" output
-			(at 347.98 363.22 0)
+			(at 353.06 363.22 0)
 			(uuid "8c07de9d-7560-4292-b4e2-778159fb66a3")
 			(effects
 				(font
@@ -42162,7 +39021,7 @@
 			)
 		)
 		(pin "SCALE" output
-			(at 347.98 354.33 0)
+			(at 353.06 354.33 0)
 			(uuid "85e13379-c962-4863-8a5c-ccbc6de0108f")
 			(effects
 				(font
